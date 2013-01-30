@@ -5,4 +5,5 @@ The program history provides some powerful filtering tools. Start by clicking on
 
 The following image shows the filter box and the drop down with all the various filters that can be used:
 
-.. image:: /_static/img/filtering_history_start.jpg 
+.. image:: _static/img/filtering_history_start.png 
+
