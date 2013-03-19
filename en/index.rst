@@ -8,7 +8,7 @@ The Vusion documentation.
 Getting started
 ===============
 
-#. :doc:`Filtering in history </getting-started/understanding-user-levels>`
+#. :doc:`Understanding User Levels </getting-started/understanding-user-levels>`
 #. :doc:`Filtering in history </getting-started/filtering-history>`
 #. :doc:`Setup program </getting-started/setup-program>`
 #. :doc:`Create dialogue </getting-started/create-dialogue>`
