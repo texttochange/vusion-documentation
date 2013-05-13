@@ -17,25 +17,25 @@ In practice this means that when an user sends INFO instead of INFO 1 it will ma
 
 Example 1:
 
--Request: INFO
--Box checked: no
--User sends: INFO 1
--**Vusion won't match** 
+- Request: INFO
+- Box checked: no
+- User sends: INFO 1
+- **Vusion won't match** 
 
 Example 2:
 
--Request: INFO
--Box checked: yes
--User sends: Info want info yes
--**Vusion will match to INFO**
+- Request: INFO
+- Box checked: yes
+- User sends: Info want info yes
+- **Vusion will match to INFO**
 
 Example 3:
 
--Request 1: INFO 1
--Request 2: INFO
--Box checked: yes
--User sends: INFO 1 > **Only request 1 will match**
--User sends: INFO 2 > **Only request 2 will match**
+- Request 1: INFO 1
+- Request 2: INFO
+- Box checked: yes
+- User sends: INFO 1 > **Only request 1 will match**
+- User sends: INFO 2 > **Only request 2 will match**
 
 
 A response is what the person who texted the keyword to the shortcode will receive immediately after texting.
