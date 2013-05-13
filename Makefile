@@ -9,9 +9,11 @@ ES_HOST =
 
 # Languages that can be built.
 LANGS = en
+LANGS = es
 
 # pdflatex does not like ja or ru for some reason.
 PDF_LANGS = en
+PDF_LANGS = es
 
 DEST = website
 

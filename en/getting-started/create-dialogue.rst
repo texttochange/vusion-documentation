@@ -22,8 +22,8 @@ The message will be sent x minutes after the participant last sended a text.
 Kind of message
 ----------------
 
-**Announcement**
 An announcement is the easiest option. This contains of a message that will be send to the participant at the programmed time. 
+face**Announcement**
 
 **Question**
 
