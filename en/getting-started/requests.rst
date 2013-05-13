@@ -15,35 +15,24 @@ The checkbox that says *'In case no matching on other requests, try to match onl
 This makes sure that even if a participant does not reply the keyword but something that looks like it, he/she will get a reply in stead of an error.
 In practice this means that when an user sends INFO instead of INFO 1 it will match to INFO 1. The full match will always get priority over the partial match, so INFO 1 will be matched to INFO 1 and not to INFO.
 
-Example:
-
+- Example:
 Request: INFO
-
 Box checked: no
-
 User sends: INFO 1
-
 **Vusion won't match** 
 
 
-Request: INFO
-
+-Request: INFO
 Box checked: yes
-
 User sends: Info want info yes
-
 **Vusion will match to INFO**
 
 
-Request 1: INFO 1
-
-Request 2: INFO
-
-Box checked: yes
-
-User sends: INFO 1 > **Only request 1 will match**
-
-User sends: INFO 2 > **Only request 2 will match**
+-Request 1: INFO 1
+-Request 2: INFO
+-Box checked: yes
+-User sends: INFO 1 > **Only request 1 will match**
+-User sends: INFO 2 > **Only request 2 will match**
 
 
 A response is what the person who texted the keyword to the shortcode will receive immediately after texting.
