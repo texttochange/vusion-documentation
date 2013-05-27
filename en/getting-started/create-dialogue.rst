@@ -2,16 +2,16 @@ Create Dialogue
 ###############
 
 Options
-==============
+--------------
 
-Has priority
--------------
+**Has priority**
 
-Automatic enrollment
------------------------
 
-Interactions
-=============
+**Automatic enrollment**
+
+
+**Interactions**
+
 
 Time
 -----------
@@ -34,7 +34,9 @@ Different messages
 **Announcement**
 
 An announcement is the easiest option. This contains of a message that will be send to the participant at the programmed time. 
-face**Announcement**
+face
+
+**Announcement**
 
 **Question**
 A question consists of the content of the question (e.g. What is your gender?) and the keyword.
@@ -44,7 +46,7 @@ There are two different kind of questions. An open question and a closed questio
 With a closed questions all of the answer options need to be defined. 
 You can apply a label to all the replies that are received as answers to this question. (e.g. gender)
 If you define the answer male, people will have to respond by texting *gender male*.
-So the input from the participants is always of the form: [keyword] [answer].
+So the input from the participants is always of the form: *[keyword] [answer]*.
 Continuing you can add a specific feedback or action to the answer.
 
 With an open question you can add a label to the answers and program a feedback that is send to the participants once they have answered this question.
@@ -55,8 +57,8 @@ Note that it is not possible to add actions to open questions.
 
 
 
-Other options
----------------
+**Other options**
+
 
 **Set maximum number of accepted unmatching answers**
 
@@ -67,8 +69,8 @@ Other options
 **Custom unmatching message**
 
 
-Reminder
---------------
+**Reminder**
+____________
 This is where you can define reminders for your question. 
 You have to define the number of reminders and the time they are sent. 
 
