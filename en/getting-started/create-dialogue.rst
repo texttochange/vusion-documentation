@@ -36,9 +36,10 @@ Different messages
 An announcement is the easiest option. This contains of a message that will be send to the participant at the programmed time. 
 face
 
-**Announcement**
+
 
 **Question**
+
 A question consists of the content of the question (e.g. What is your gender?) and the keyword.
 The keyword enables Vusion to recognize to what question the participant is answering. (e.g. gender)
 There are two different kind of questions. An open question and a closed question.
