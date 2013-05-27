@@ -36,10 +36,10 @@ copyright = u'2013, Text To Change'
 # built documents.
 #
 # The short X.Y version.
-version = '0.4.x'
+version = '0.5.x'
 
 # The full version, including alpha/beta/rc tags.
-release = '0.4.x'
+release = '0.5.x'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -94,7 +94,7 @@ html_theme_path = ['../themes']
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
-html_short_title = u'Vusion 0.4.x'
+html_short_title = u'Vusion 0.5.x'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
