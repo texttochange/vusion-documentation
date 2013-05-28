@@ -3,7 +3,7 @@
 
 # You can set these variables from the command line.
 SPHINXOPTS    = -w error.log -P
-SPHINXBUILD   = sphinx-build
+SPHINXBUILD   = /usr/local/bin/sphinx-build
 PAPER         =
 BUILDDIR      = ../build
 PYTHON        = python
