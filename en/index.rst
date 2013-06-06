@@ -14,4 +14,4 @@ Getting started
 #. :doc:`Create dialogue </getting-started/create-dialogue>`
 #. :doc:`Introduction to Requests </getting-started/requests>`
 #. :doc:`Actions </getting-started/actions>`
-
+#. :doc:`Terms </getting-started/terms>`
