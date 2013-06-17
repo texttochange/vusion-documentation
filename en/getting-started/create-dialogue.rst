@@ -88,7 +88,7 @@ If the participant does not reply with the keyword Vusion will not register this
 Participants will get no feedback if their reply is not recognized by Vusion.
 
 **Default program unmatching feedback**
-
+Vusion will send back a standard message. You can configure this at program settings.
 
 **Custom unmatching message**
 
