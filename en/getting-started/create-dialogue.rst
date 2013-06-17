@@ -56,6 +56,7 @@ Note that it is not possible to attach actions to open questions.
 
 
 **Question multi-keyword**
+
 This option comese in handy when there are only two answer options available to your question.
 It defines the keyword as the answer option. So when asking what gender someone is they don't have to reply with *gender male* or *gender female* but just with *male* or *female*.
 
@@ -64,31 +65,37 @@ It defines the keyword as the answer option. So when asking what gender someone 
 
 
 **Set maximum number of accepted unmatching answers**
-This option will limit the amount of wrong answers a participant can send back.
-When you set this number to 3 for example and the questions is *What age are you? Reply with age [space] yourage* someone who consecutively replies with
-* 19
-* i am 19 years old
-* age 19
 
-will go through. However, if someone answers with 
-* 19
-* i am 19 years old
-* my age is 19
-* age 19
+This option will limit the amount of wrong answers a participant can send back.
+When you set this number to 3 for example and the questions is *What age are you? Reply with age [space] yourage* someone who consecutively replies with:
+
+- 19
+- i am 19 years old
+- age 19
+
+will go through. However, if someone answers with: 
+
+- 19
+- i am 19 years old
+- my age is 19
+- age 19
 
 Vusion will nog longer register this answer as valid and the participant will no longer receive any messages.
 If the participant does not reply with the keyword Vusion will not register this answer as an unmatchable reply since it is not recognized at all.
 
 **No unmatching feedback**
+
 Participants will get no feedback if their reply is not recognized by Vusion.
 
 **Default program unmatching feedback**
 
 
 **Custom unmatching message**
+
 Here you can configure what message the participants will receive if their reply is not recognized by Vusion.
 
 **Reminder**
+
 This is where you can define reminders for your question. 
 You have to define the number of reminders and how long it takes before they are sent. 
 It is important to realize that when all the reminders are sent and the participant still has not replied he/she will no longer be able to answer this particular question.
