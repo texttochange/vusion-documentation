@@ -21,13 +21,16 @@ Time
 This option will send a message at a fixed time, make sure the time-zone matches the time-zone of the country your participants live in. 
 
 **Offset days**
-The message will be sent x days after the participant last sended a text. (?)
+The message will be sent x days after the participant last sended a text. 
 
 
 **Offset time**
 The message will be sent x minutes after the participant last sended a text. 
 
 **Answer required**
+
+When this option is selected participants will not receive the question/message you are currently creating, **unless** the question you select from the dropdown menu is answered.
+This comes in handy when you want to force participants to flow through your program in a specific manner.
 
 Different messages
 ----------------
@@ -88,7 +91,8 @@ If the participant does not reply with the keyword Vusion will not register this
 Participants will get no feedback if their reply is not recognized by Vusion.
 
 **Default program unmatching feedback**
-Vusion will send back a standard message. You can configure this at program settings.
+
+Vusion will send back a standard message. You can configure this at the program settings tab.
 
 **Custom unmatching message**
 
