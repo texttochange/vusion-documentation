@@ -7,6 +7,7 @@ General
 A request will enable participants to interact with Vusion. The most important part of a request is the keyword.
 This will allow the system to know about what the participant is texting and respond with an appropiate answer/action.
 The green sign means that the keyword is not in use yet, if a red cross appears it is in use by another programm. You will need to choose another keyword.
+You can seperate keywords with a comma, all these keywords will then trigger the same response. This can be used to react correct to typo's that end users will make.
 
 
 .. image:: _static/img/request1.PNG
