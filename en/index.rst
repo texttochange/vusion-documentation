@@ -19,4 +19,4 @@ Getting started
 
 Features
 ===================
-#. :doc:`Limit feature </getting-started/limit>`
+#. :doc:`Limit feature </features/limit>`
