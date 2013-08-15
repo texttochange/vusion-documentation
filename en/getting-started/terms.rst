@@ -1,7 +1,7 @@
 List of terms
 #################
 
-List of all terms relevant for your understanding of Vusion:
+List of all terms relevant to your understanding of Vusion:
 
 A
 -----------
