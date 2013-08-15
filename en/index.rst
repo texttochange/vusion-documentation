@@ -20,3 +20,4 @@ Getting started
 Features
 ===================
 #. :doc:`Limit feature </features/limit>`
+#. :doc:`Proportional tagging </features/proptag>`
