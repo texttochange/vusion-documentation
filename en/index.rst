@@ -15,3 +15,8 @@ Getting started
 #. :doc:`Introduction to Requests </getting-started/requests>`
 #. :doc:`Actions </getting-started/actions>`
 #. :doc:`Terms </getting-started/terms>`
+
+
+Features
+===================
+#. :doc:`Limit feature </getting-started/limit>`
