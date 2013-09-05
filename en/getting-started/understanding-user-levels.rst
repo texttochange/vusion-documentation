@@ -37,7 +37,7 @@ Program manager
 ================
 The name says it all. This user can do everything *inside* a program. Change the logic, send messages, manage participants, etcetera. However, a user on this level will only be able to do so for the programs he has access to, since this user will not have access to all programs in the system.
 
-Program messenger
+Partner manager
 =================
 The program messenger has only access to one or more specific programs to which they have explicit access. Within these programs (s)he can send separate messages and manage participants. However, the program messenger is *not* able to change any of the program logic, ie; dialogues or requests.
 
