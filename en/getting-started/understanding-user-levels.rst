@@ -39,7 +39,7 @@ The name says it all. This user can do everything *inside* a program. Change the
 
 Partner manager
 =================
-The program messenger has only access to one or more specific programs to which they have explicit access. Within these programs (s)he can send separate messages and manage participants. However, the program messenger is *not* able to change any of the program logic, ie; dialogues or requests.
+The parner manager has only access to one or more specific programs to which they have explicit access. Within these programs (s)he can send separate messages and manage participants. However, the partner manager is *not* able to change any of the program logic, ie; dialogues or requests.
 
 Partner
 =======
