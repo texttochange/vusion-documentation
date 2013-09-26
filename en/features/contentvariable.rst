@@ -16,7 +16,7 @@ So in this case that would come down to
 **Caution**
 
 Pay attention to the capitalization of contentVariable. If other capital letters are applied it won't work.
-The key is also capitol sensitive, so if you use 'temperature' in stead of 'Temperature' the message will not be delivered. 
+The key is also capital sensitive, so if you use 'temperature' in stead of 'Temperature' the message will not be delivered. 
 
 
 Participant variable
