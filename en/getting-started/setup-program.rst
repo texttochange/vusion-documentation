@@ -55,4 +55,4 @@ Double optin error feedback
 Set SMS Limit
 ---------------------------------
 Here you can set a limit to the maximum amount of messages that can be send in a program. 
-For more information on this feature please see `Limit Feature <http://vusion-doc.texttochange.org/en/features/limit.html/>`_
+For more information on this feature please see `Limit Feature </en/features/limit.rst/>`_
