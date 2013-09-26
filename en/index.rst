@@ -8,16 +8,27 @@ The Vusion documentation.
 Getting started
 ===============
 
-#. :doc:`Understanding User Levels </getting-started/understanding-user-levels>`
-#. :doc:`Filtering in history </getting-started/filtering-history>`
-#. :doc:`Setup program </getting-started/setup-program>`
-#. :doc:`Create dialogue </getting-started/create-dialogue>`
-#. :doc:`Introduction to Requests </getting-started/requests>`
+
+
+
+
+
+
+Introduction to basic features
+================================
+#. :doc:`Introduction to setting up a program </getting-started/setup-program>`
+#. :doc:`Introduction to requests </getting-started/requests>`
+#. :doc:`Introduction to dialogues </getting-started/create-dialogue>`
 #. :doc:`Actions </getting-started/actions>`
-#. :doc:`Terms </getting-started/terms>`
+#. :doc:`Introduction to filtering</getting-started/filtering-history>`
+#. :doc:`Introduction to user levels </getting-started/understanding-user-levels>`
 
 
-Features
+Advanced features
 ===================
 #. :doc:`Limit feature </features/limit>`
 #. :doc:`Proportional tagging </features/proptag>`
+
+Terms
+==========================
+#. :doc:`Terms </getting-started/terms>`
