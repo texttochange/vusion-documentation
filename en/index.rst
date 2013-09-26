@@ -27,6 +27,7 @@ Advanced features
 ===================
 #. :doc:`Limit feature </features/limit>`
 #. :doc:`Proportional tagging </features/proptag>`
+#. :doc:`Content Variables (Dynamic Content)</features/contentvariable>`
 
 Overview
 ==========================
