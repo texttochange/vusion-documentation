@@ -4,9 +4,10 @@ Setup A Program
 General
 =========
 The first thing you do when creating a new program is configuring the basic program settings.
+Depending on which user level you are you can only view the program settings or edit some/all of them.
 
 Options
-===========
+_________________
 
 Shortcode
 ---------------------------------
@@ -54,3 +55,7 @@ Double optin error feedback
 Set SMS Limit
 ---------------------------------
 Here you can set a limit to the maximum amount of messages that can be send in a program. 
+For more information on this feature please see `Limit Feature </en/features/limit.rst/>`_
+
+SMS forwarding
+-----------------------------------------
