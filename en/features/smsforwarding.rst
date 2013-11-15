@@ -42,7 +42,7 @@ This is an example of notification message. In this example we assume that the s
 
 So with this notification message content:
 
-| "Alert **[participant.name]** (**[participant.phone]**) at **[participant.address]** say '**[context.message]**' at **[time.H]**:**[time.M]**"
+"Alert **[participant.name]** (**[participant.phone]**) at **[participant.address]** say '**[context.message]**' at **[time.H]**:**[time.M]**"
 
 * **[participant.name]**      will show the name of the participant sending the Alert message.
 * **[participant.phone]**     will show the phone number of the participant sending the Alert message.
