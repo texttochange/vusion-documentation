@@ -4,9 +4,17 @@ When selecting action sms forward radio button from the list of actions. An inte
  
 .. image:: _static/img/smsforwarding_action.png
 
-**Receiver Tag:** In this textarea you enter the tag for participant in your program who are ment to receive the Alert message.
+**Receiver Tag** 
+In this textarea you enter the tag for participant in your program who are ment to receive the Alert message.
 
-**Content :** In this textarea you enter the message format the tagged participants will receive when an alert is sent by user.
+**Content** 
+In this textarea you enter the message format the tagged participants will receive when an alert is sent by user.
+ie
+----
+
+Hello **[participant.name] ([participant.phone])** at **[participant.address]** say **[context.message]** at **[time.H]:[time.M]**
+
+
 
 consider the use case  in the image  below:
 
