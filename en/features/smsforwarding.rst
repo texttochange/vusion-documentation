@@ -15,22 +15,22 @@ ie
 
 "Hello **[participant.name]** (**[participant.phone]**) at **[participant.address]** say **[context.message]** at **[time.H]**:**[time.M]**"
 
-Here **[participant.name]**      will show the name of the participant sending the Alert message.
+**[participant.name]**      will show the name of the participant sending the Alert message.
 
 
-     **[participant.phone]**     will show the phone number of the participant sending the Alert message.
+**[participant.phone]**     will show the phone number of the participant sending the Alert message.
      
      
-     **[participant.address]**   will show the address of the participant sending the Alert message.
+**[participant.address]**   will show the address of the participant sending the Alert message.
      
      
-     **[context.message]**       will show the message context sent by the participant.
+**[context.message]**       will show the message context sent by the participant.
      
      
-     **[time.H]**                will show the hour the participant sent the Alert message.
+**[time.H]**                will show the hour the participant sent the Alert message.
      
      
-     **[time.M]**                will show the minutes the participant sent the Alert message.
+**[time.M]**                will show the minutes the participant sent the Alert message.
      
 consider the use case  in the image  below:
 
