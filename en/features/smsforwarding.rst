@@ -40,11 +40,11 @@ consider the use case  in the image  below:
 .. image:: _static/img/smsforwarding_use_case.jpg
 
 
-**1** Participant sends out an Alert message 
+**1 :** Participant sends out an Alert message 
 
 
-**2** Vusion formats  the message according to the dynamic contnent provided 
+**2 :** Vusion formats  the message according to the dynamic contnent provided 
 
 
-**3** tagged participant receive the message and respond to it.
+**3 :** tagged participant receive the message and respond to it.
 
