@@ -31,6 +31,9 @@ ie
      
      
 **[time.M]**                will show the minutes the participant sent the Alert message.
+
+if participant sent "Alert help" where "Alert" is the keyword. The participant tagged to receive this message will reveive the message below 
+**"Hello Tom (+2567702222) at kkkl says help at 10:50"**
      
 consider the use case  in the image  below:
 
