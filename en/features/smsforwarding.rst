@@ -9,10 +9,11 @@ In this textarea you enter the tag for participant in your program who are ment 
 
 **Content** 
 In this textarea you enter the message format the tagged participants will receive when an alert is sent by user.
+
 ie
 ----
 
-Hello **[participant.name] ([participant.phone])** at **[participant.address]** say **[context.message]** at **[time.H]:[time.M]**
+"Hello **[participant.name] ([participant.phone])** at **[participant.address]** say **[context.message]** at **[time.H]:[time.M]**"
 
 
 
