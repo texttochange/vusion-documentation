@@ -40,19 +40,20 @@ This is an example of notification message. In this example we assume that the s
 #. name:Tom
 #. address:3rd av behind city mall mombasa
 
-"Hello **[participant.name]** (**[participant.phone]**) at **[participant.address]** say '**[context.message]**' at **[time.H]**:**[time.M]**"
+So with this notification message content:
+| "Alert **[participant.name]** (**[participant.phone]**) at **[participant.address]** say '**[context.message]**' at **[time.H]**:**[time.M]**"
 
-**[participant.name]**      will show the name of the participant sending the Alert message.
+*. **[participant.name]**      will show the name of the participant sending the Alert message.
 
-**[participant.phone]**     will show the phone number of the participant sending the Alert message.
+*. **[participant.phone]**     will show the phone number of the participant sending the Alert message.
      
-**[participant.address]**   will show the address of the participant sending the Alert message.
+*. **[participant.address]**   will show the address of the participant sending the Alert message.
      
-**[context.message]**       will show the message context sent by the participant.
+*. **[context.message]**       will show the message context sent by the participant.
      
-**[time.H]**                will show the hour the participant sent the Alert message.
+*. **[time.H]**                will show the hour the participant sent the Alert message.
      
-**[time.M]**                will show the minutes the participant sent the Alert message.
+*. **[time.M]**                will show the minutes the participant sent the Alert message.
 
 if participant sent "Alert help" where "Alert" is the keyword. The participant tagged to receive this message will reveive the message below 
-**"Hello Tom (+2567702222) at 3rd av behind city mall mombasa says 'Alert help' at 10:50"**
+**"Alert Tom (+2567702222) at 3rd av behind city mall mombasa says 'Alert help' at 10:50"**
