@@ -1,4 +1,4 @@
-Sms farwarding
+Sms forwarding
 ##############
 When selecting action sms forward radio button from the list of actions. An interface comes up with two fields as shown below:
  
