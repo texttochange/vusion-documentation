@@ -26,8 +26,9 @@ Introduction to basic features
 Advanced features
 ===================
 #. :doc:`Limit feature </features/limit>`
-#. :doc:`Proportional tagging </features/proptag>`
 #. :doc:`Content Variables (Dynamic Content)</features/contentvariable>`
+#. :doc:`Proportional Tagging Action </features/proptag>`
+#. :doc:`SMS Forward Action </features/smsforwarding>`
 
 Overview
 ==========================
