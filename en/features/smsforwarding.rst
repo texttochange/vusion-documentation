@@ -35,7 +35,11 @@ In this textarea, you enter the notification message that will be send. For more
 Notification Message
 --------------------
 
-This is an example of notification message.
+This is an example of notification message. In this example we assume that the send of the alert has been created on the program with 2 label:
+
+#. name:Tom
+#. address:3rd av behind city mall mombasa
+
 "Hello **[participant.name]** (**[participant.phone]**) at **[participant.address]** say '**[context.message]**' at **[time.H]**:**[time.M]**"
 
 **[participant.name]**      will show the name of the participant sending the Alert message.
@@ -51,4 +55,4 @@ This is an example of notification message.
 **[time.M]**                will show the minutes the participant sent the Alert message.
 
 if participant sent "Alert help" where "Alert" is the keyword. The participant tagged to receive this message will reveive the message below 
-**"Hello Tom (+2567702222) at kkkl says Alert help at 10:50"**
+**"Hello Tom (+2567702222) at 3rd av behind city mall mombasa says 'Alert help' at 10:50"**
