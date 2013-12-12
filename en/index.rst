@@ -8,7 +8,7 @@ The Vusion documentation.
 Getting started
 ===============
 #. :doc:`Log-in for the first time </getting-started/login>`
-
+#. :doc:`Training manuals </training/index>`
 
 
 
