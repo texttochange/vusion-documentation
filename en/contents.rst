@@ -4,9 +4,8 @@ Contents
 .. toctree::
    :maxdepth: 3
 
-   index
-   getting-started   
 
+   index
 
 .. todolist::
 
