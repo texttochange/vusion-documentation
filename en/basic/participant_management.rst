@@ -2,7 +2,6 @@ Participant management
 +++++++++++++++++++++++++++
 This section covers participant management in Vusion. Managing your participants efficiently can be very important, especially in programs with a large number of participants. Vusion has a number of tools available to help you in the various tasks you might need to perform. 
 
-.. warning:: Intro to the participant screen?
 
 Participants are a very important part of the Vusion system. A participant is identified by his or her cellphone number. In the Vusion database, more information can be added to the participant record, such as the date the participant was added to the database, dialogues the participant is enrolled in and various tags and labels containing additional information about the participant. All this information together can create a fairly extensive profile of a participant. This information can later be exported and used for analysis.
 
