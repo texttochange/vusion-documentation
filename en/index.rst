@@ -38,15 +38,20 @@ Advanced topics
 
 
 
+
+Archive
+========
+These are old and incomplete guides, only kept for reference. They may be removed at any time.
+
 Getting started
-===============
+-----------------
 #. :doc:`Log-in for the first time </getting-started/login>`
 #. :doc:`Training manuals </basic/index>`
 
 
 
 Old guides
-================================
+-------------
 #. :doc:`Introduction to setting up a program </getting-started/setup-program>`
 #. :doc:`Introduction to requests </getting-started/requests>`
 #. :doc:`Introduction to dialogues </getting-started/create-dialogue>`

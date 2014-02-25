@@ -45,8 +45,6 @@ Sending a seperate message is easy: in the Seperate Messages screen, click on Ne
 	:figwidth: 800px
 
 
-.. warning:: Make sure all options are shown in 1 image
-
 In this screen you can define a Seperate Message. Creating a Seperate message requires you to enter 4 characteristics.
 
  - **Name**
