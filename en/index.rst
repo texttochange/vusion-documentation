@@ -23,8 +23,8 @@ Vusion basics
 #. :doc:`Introduction to the Vusion interface</basic/login>`
 #. :doc:`Backend architecture </basic/backend>`
 #. :doc:`Seperate Messages </basic/seperatemessage>`
-#. :doc:`History Filtering </basic/filtering-history>`
 #. :doc:`Participant Management </basic/participant_management>`
+#. :doc:`History Filtering </basic/filtering-history>`
 #. :doc:`Requests </basic/requests>`
 
 Advanced topics
