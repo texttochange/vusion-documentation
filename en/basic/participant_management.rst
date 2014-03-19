@@ -45,15 +45,15 @@ In many cases adding participants one by one is not very efficient. Luckily ther
 
 	The import participants screen 
 
-You can import from a CSV or XLS file. The first column should contain the telephone numbers. Other columns in the file will be seen as labels for the participants, where the top entry of each column will be used as the label name.
+You can import from a CSV or XLS file. The first column should contain the telephone numbers. The second column is reserved for tags.  Other columns in the file will be seen as labels for the participants, where the top entry of each column will be used as the label name.
 
 .. figure:: _static/img/part_excel.PNG
-	:width: 400px
+	:width: 450px
 	:align: center
 	:alt: image19.png
 	:figwidth: 800px
 
-	The first entry in the first column, field A1 in Excel, should always contain the text "phone". Other columns can contain Labels for the participants
+	The first entry in the first column, field A1 in Excel, should always contain the text "phone". The next column contains tags. Other columns can contain Labels for the participants
 
 
 In the Import Participants screen you can also automatically add a tag to the imported participants. Put the tag you want to add to the participants in the "Tag imported participants" field. When you selected the right file and the tag you want to add, click upload. The file will be uploaded and the participants will be added to the database with correct tags attached. 
