@@ -7,10 +7,10 @@ Estos manuales se encuentran disponibles actualmente en la web:
 .. toctree::
    :maxdepth: 2
 
-   Inicio de Sesión(login)
-   Diseño del Programa Vusión (backend)
+   Inicio de SesiÃ³n(login)
+   DiseÃ±o del Programa VusiÃ³n (backend)
    Mensajes separados (seperate message)
-   Administración de los Participantes (participant_management)
+   AdministraciÃ³n de los Participantes (participant_management)
    Filtrado de Historial (filtering-history)
    Solicitudes (requests)
 

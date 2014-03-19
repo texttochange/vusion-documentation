@@ -1,7 +1,7 @@
-Lista de términos
+Lista de tÃ©rminos
 #################
 
-Lista de los términos relevantes para entender Vusion:
+Lista de los tÃ©rminos relevantes para entender Vusion:
 
 A
 -----------
@@ -11,7 +11,7 @@ B
 
 C
 -----------
-- Código corto
+- CÃ³digo corto
 
 D
 -----------

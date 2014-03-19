@@ -1,4 +1,4 @@
-Bienvenido a la documentaci髇 de Vusion 
+Bienvenido a la documentaci贸n de Vusion 
 
 .. image:: /_static/img/vusion-logo-wide.png 
 
@@ -20,43 +20,43 @@ Bienvenido a la documentaci髇 de Vusion
 Fundamentos de Vusion 
 ======================
 
-#. :doc:`Introducci髇 a la Interface Vusion </basic/login>`
-#. :doc:`Dise駉 del Programa Vusion </basic/backend>`
+#. :doc:`Introducci贸n a la Interface Vusion </basic/login>`
+#. :doc:`Dise帽o del Programa Vusion </basic/backend>`
 #. :doc:`Mesajes Separados </basic/seperatemessage>`
-#. :doc:`Administraci髇 de los Participantes </basic/participant_management>`
+#. :doc:`Administraci贸n de los Participantes </basic/participant_management>`
 #. :doc:`Filtrado del Historial </basic/filtering-history>`
 #. :doc:`Solicitudes </basic/requests>`
 
 Temas avanzados
 ================
 
-#. :doc:`Mini gu韆: Usar archivos .CSV en Excel </advanced/csv_split>`
-#. :doc:`L韒ite de Funciones </advanced/limit>`
-#. :doc:`Contenido de Variables (Contenido Din醡ico)</advanced/contentvariable>`
+#. :doc:`Mini gu铆a: Usar archivos .CSV en Excel </advanced/csv_split>`
+#. :doc:`L铆mite de Funciones </advanced/limit>`
+#. :doc:`Contenido de Variables (Contenido Din谩mico)</advanced/contentvariable>`
 #. :doc:`Como Taggear Proporcionalmente  </advanced/proptag>`
-#. :doc:`Env韔 de SMS </advanced/smsforwarding>`
+#. :doc:`Env铆o de SMS </advanced/smsforwarding>`
 
 
 
 
 Archivo
 ========
-Estas son gu韆s antiguas e incompletas, solo mantenidas para usar como referencia. Pueden ser removidas en cualquier momento.
+Estas son gu铆as antiguas e incompletas, solo mantenidas para usar como referencia. Pueden ser removidas en cualquier momento.
 
 Iniciando 
 ----------
-#. :doc:`Inicio de Sesi髇 por Primera Vez </getting-started/login>`
+#. :doc:`Inicio de Sesi贸n por Primera Vez </getting-started/login>`
 #. :doc:`Manuales de Entrenamiento </basic/index>`
 
 
 
-Gu韆s Antiguas
+Gu铆as Antiguas
 ---------------
-#. :doc:`Introducci髇 a Crear un Programa </getting-started/setup-program>`
-#. :doc:`Introducci髇 a Solicitudes </getting-started/requests>`
-#. :doc:`Introducci髇 a Di醠ogos </getting-started/create-dialogue>`
-#. :doc:`Introducci髇 a Filtrado </getting-started/filtering-history>`
-#. :doc:`Introducci髇 a Niveles de Usuario </getting-started/understanding-user-levels>`
+#. :doc:`Introducci贸n a Crear un Programa </getting-started/setup-program>`
+#. :doc:`Introducci贸n a Solicitudes </getting-started/requests>`
+#. :doc:`Introducci贸n a Di谩logos </getting-started/create-dialogue>`
+#. :doc:`Introducci贸n a Filtrado </getting-started/filtering-history>`
+#. :doc:`Introducci贸n a Niveles de Usuario </getting-started/understanding-user-levels>`
 
-#. :doc:`Terminolog韆 </getting-started/terms>`
+#. :doc:`Terminolog铆a </getting-started/terms>`
 #. :doc:`Acciones </getting-started/actions>`

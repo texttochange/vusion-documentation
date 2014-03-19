@@ -4,13 +4,13 @@ Taggeado Proporcional
 General
 ########
 
-Esta característica le permite al participante ser asignado a diferentes grupos de acuerdo a valores predefinidos.
-Si los participantes tienen que ser distribuidos de forma equitativa a todos los grupos todos los valores deberían ser iguales a 1.
+Esta caracterÃ­stica le permite al participante ser asignado a diferentes grupos de acuerdo a valores predefinidos.
+Si los participantes tienen que ser distribuidos de forma equitativa a todos los grupos todos los valores deberÃ­an ser iguales a 1.
 
 
 Escenarios 
 ______________
-- En la configuración define Grupo 1 con Valor 1 y Grupo 2 con Valor 2
+- En la configuraciÃ³n define Grupo 1 con Valor 1 y Grupo 2 con Valor 2
 Los participantes se distribuiran de la siguiente manera: 
 
 =============================  =======  	========
