@@ -1,4 +1,4 @@
-Vusion backend architecture
+:index:`Vusion backend architecture`
 +++++++++++++++++++++++++++++++++++++++
 
 This guide will explain the architecture of the Vusion system. In order to send a message from Vusion to the mobile phone of a participant, a lot of infrastructure is used. From the Vusion software running on a server the cloud through the mobile networks of our partners to the mobile phone of the participant, all parts are needed to succesfully deliver the message. 

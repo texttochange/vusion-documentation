@@ -1,5 +1,5 @@
-Requests
-+++++++++++++
+:index:`Requests`
+++++++++++++++++++
 
 In Vusion there are different ways of implementing interaction with the participant. One of those ways is through Requests. Using Requests is a way to automatically perform some action when a message comes in that contains a certain Keyword. When you set up a Request you choose a Keyword to match, and you also choose an action you would like Vusion to perform if that Keyword is recognized.
 
@@ -35,8 +35,8 @@ The Add Request screen lets you set up a new Request.
 
 There are a number of things that need to be set up.
 
-Keywords
-===========
+:index:`Keywords`
+==================
 
 The first thing to set up when creating a Request is the Keyword. The Keyword is used as an identifier. All messages starting with the Keyword will be processed in Vusion as a Request. In order to be able to correctly identify and process messages, the Keywords have to be unique. Luckily Vusion automatically checks if the Keyword you want to use is already being used by some other Request. 
 
