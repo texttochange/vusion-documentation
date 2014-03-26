@@ -71,7 +71,7 @@ If the filter did not give the intended results you can click the small arrow bu
 
 It is important to note that once you have defined a filter you can easily save it by storing the URL as a bookmark. Then, by going to the same URL you will get the same filter again. This is an easy way of revisiting past filters.
 
-Also, you can export the filtered data by using the **Export History** dropdown at the top right of the screen. By exporting you can do further analysis on the data in an external application, like Microsoft Excel.
+Also, you can export the filtered data by using the **Export History** dropdown at the top right of the screen. By exporting you can do further analysis on the data in an external application, like Microsoft Excel. In order to use the exported CSV file in Excel, follow this guide :doc:`Mini guide: Using .CSV files in Excel </advanced/csv_split>`
 
 
 

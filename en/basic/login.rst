@@ -52,10 +52,22 @@ When you click on a project, you are redirected to the program home page. From t
 
 
 There are guides available to explain most of the features in the Navigation Menu. These guides will explain the features and show you how you can use them. 
- - Requests: :doc:`Requests guide <requests>`
- - Dialogues: No guide available yet
- - Seperate Messages: :doc:`Seperate messages guide <seperatemessage>`
- - Predefined Messages: see :doc:`Seperate messages guide <seperatemessage>`
- - Content Variables: :doc:`Content Variable guide </advanced/contentvariable>`
- - Participants: :doc:`Participant Management guide <participant_management>`
- - History: :doc:`History Filtering guide <filtering-history>`
+
+
+
+=======================   ========================================    ===============================================================
+**Requests**              Manage requests                             :doc:`Requests guide <requests>`
+**Dialogues**             Manage dialogues                            No guide available yet
+**Seperate Messages**     Send seperate messages                      :doc:`Seperate messages guide <seperatemessage>`
+**Predefined Messages**   Predefine messages for later use            see :doc:`Seperate messages guide <seperatemessage>`
+**Content Variables**     Set up variables to be used in messages     :doc:`Content Variable guide </advanced/contentvariable>`
+**Participants**          Manage participants                         :doc:`Participant Management guide <participant_management>`
+**History**               View program history                        :doc:`History Filtering guide <filtering-history>`
+**Settings**              Manage the settings of the program
+**Logs**                  View program log
+**Program List**          See all available programs
+=======================   ========================================    ===============================================================
+
+
+
+

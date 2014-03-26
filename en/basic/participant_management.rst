@@ -116,7 +116,7 @@ When you have made the right selection, you can perform actions on all participa
 
  - **Tag**: Add a Tag to all selected participants. A tag is a piece of text that can be used to mark certain participants.
  - **Untag**: Remove a Tag from all selected participants.
- - **Export**: Download a CSV file to your computer containing the selected participants. The file will contain all the details of the participant like tags and labels. Exported files can be analyzed in Excel or in other analysis programs. 
+ - **Export**: Download a CSV file to your computer containing the selected participants. The file will contain all the details of the participant like tags and labels. This guide will show you how you can use the CSV file in Excel :doc:`Mini guide: Using .CSV files in Excel </advanced/csv_split>`
  - **Delete**: Remove the selected participants from the database. When you delete participants they are permanently removed. This action can not be undone.
 
 It is very important to remember that these operations work on all the currently selected participants. This means you have to be very careful, especially when deleting groups of participants. 

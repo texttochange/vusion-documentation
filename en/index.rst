@@ -13,7 +13,7 @@ Welcome to the Vusion documentation
    /basic/seperatemessage
    /basic/participant_management
    /basic/filtering-history
-   /basic/requests
+   /advanced/requests
 
 
 
@@ -25,11 +25,11 @@ Vusion basics
 #. :doc:`Seperate Messages </basic/seperatemessage>`
 #. :doc:`Participant Management </basic/participant_management>`
 #. :doc:`History Filtering </basic/filtering-history>`
-#. :doc:`Requests </basic/requests>`
 
 Advanced topics
 ==================
 
+#. :doc:`Requests </advanced/requests>`
 #. :doc:`Mini guide: Using .CSV files in Excel </advanced/csv_split>`
 #. :doc:`Limit feature </advanced/limit>`
 #. :doc:`Content Variables (Dynamic Content)</advanced/contentvariable>`
