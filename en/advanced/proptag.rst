@@ -1,7 +1,7 @@
 Proportional Tagging
 +++++++++++++++++++++
 
-Proportional tagging is a feature that enables participants to be automatically assigned to different groups.  If participants are to be distributed equally to all groups, all weights should be set to one. It is also possible to distribute them unequally. By setting different weights to different groups you can put for instance 1 in 4 participants in a group, while the rest goes in the other group. 
+Proportional tagging is a feature that enables participants to be automatically assigned to different groups by tagging them with different tags.  If participants are to be distributed equally to all groups, all weights should be set to one. It is also possible to distribute them unequally. By setting different weights to different groups you can put for instance 1 in 4 participants in a group, while the rest goes in the other group. 
 
 
 

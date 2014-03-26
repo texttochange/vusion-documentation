@@ -35,28 +35,8 @@ Advanced topics
 #. :doc:`Content Variables (Dynamic Content)</advanced/contentvariable>`
 #. :doc:`Proportional Tagging Action </advanced/proptag>`
 #. :doc:`SMS Forward Action </advanced/smsforwarding>`
+#. :doc:`Understanding User Levels </advanced/understanding-user-levels>`
 
 
 
-
-Archive
-========
-These are old and incomplete guides, only kept for reference. They may be removed at any time.
-
-Getting started
------------------
-#. :doc:`Log-in for the first time </getting-started/login>`
-#. :doc:`Training manuals </basic/index>`
-
-
-
-Old guides
--------------
-#. :doc:`Introduction to setting up a program </getting-started/setup-program>`
-#. :doc:`Introduction to requests </getting-started/requests>`
-#. :doc:`Introduction to dialogues </getting-started/create-dialogue>`
-#. :doc:`Introduction to filtering</getting-started/filtering-history>`
-#. :doc:`Introduction to user levels </getting-started/understanding-user-levels>`
-
-#. :doc:`Terms </getting-started/terms>`
-#. :doc:`Actions </getting-started/actions>`
+We are constantly trying to improve the Vusion documentation. If there are subjects missing or if there are errors in one of the guides, please contact us. 

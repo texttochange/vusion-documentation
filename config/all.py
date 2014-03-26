@@ -25,21 +25,21 @@ source_suffix = '.rst'
 #source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = 'contents'
+master_doc = 'index'
 
 # General information about the project.
 project = u'Vusion Documentation'
-copyright = u'2013, Text To Change'
+copyright = u'2014, Text To Change'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
 # The short X.Y version.
-version = '0.5.x'
+version = '0.5'
 
 # The full version, including alpha/beta/rc tags.
-release = '0.5.x'
+release = '0.5.1'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
