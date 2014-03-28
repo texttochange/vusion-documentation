@@ -1,5 +1,5 @@
-Sms forwarding
-##############
+:index:`Sms forwarding`
+########################
 
 Use Case
 ----------
@@ -32,8 +32,8 @@ In this textbox, you enter the tag of participant to will receive the message. P
 In this textarea, you enter the notification message that will be send. For more details on how to customize this message, see the next section.
 
 
-Notification Message
---------------------
+:index:`Notification Message`
+------------------------------
 
 This is an example of notification message. In this example we assume that the send of the alert has been created on the program with 2 label:
 

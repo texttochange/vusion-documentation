@@ -74,16 +74,16 @@ This difference in these two cases is important to understand. It is based on th
 
 When the Keyword has been succesfully matched, Vusion can do two things. Send a Response to the participant, and perform an Action.
 
-Response
-============
+:index:`Response`
+==================
 
 The Response is used to automatically reply to the participant. To add a Response message to a Request, click the Add Response button. A yellow box will show up in which you can define a message that will be sent to the participant. 
 
 You can add more then one response to a Request by simply clicking on the Add Response button multiple times. You can delete a response by clicking the X in the upper right corner of the yellow response box.
 
 
-Actions
-===========
+:index:`Actions`
+==================
 
 Next to automatically sending a Response as explained above, we can do a lot more with Requests. It is also possible to make Requests trigger Actions. This is where the Vusion platform really shows it's versatility and it's possibilities. It is also where configuring Vusion gets complicated, because Actions can schedule and trigger other events. 
 There are many different Actions currently implemented in Vusion that you can use.

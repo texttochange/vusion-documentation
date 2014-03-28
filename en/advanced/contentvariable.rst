@@ -1,4 +1,4 @@
-Content variable
+:index:`Content variable`
 ===========================
 
 When selecting Content Variables in the left menu dynamic content can be edited.

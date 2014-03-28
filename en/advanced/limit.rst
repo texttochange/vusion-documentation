@@ -1,5 +1,5 @@
-Limit feature
-+++++++++++++++
+:index:`Limit feature`
++++++++++++++++++++++++
 
 General
 -----------

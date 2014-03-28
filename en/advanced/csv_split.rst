@@ -1,4 +1,4 @@
-Using .CSV files in Excel
+Using :index:`CSV files` in Excel
 --------------------------------------
 
 This guide covers the usage of CSV files in Excel. Vusion exports it's files with participant data and other kinds of data in a format called CSV. CSV stands for Comma Seperated Value. A CSV file exists of lines of values that are seperated by comma's. The very first line of the file usually consists of column headers.

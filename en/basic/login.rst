@@ -1,5 +1,5 @@
-Introduction to the Vusion interface
---------------------------------------
+Introduction to the :index:`Vusion interface`
+----------------------------------------------
 Here we will cover the interface of Vusion. The goal of this guide is to be able to log in, select your program, and get to grips with the program interface
 
 
@@ -14,8 +14,8 @@ Log in
 This is the Vusion login screen. It can be reached by going to `http://vusion.texttochange.org <http://vusion.texttochange.org>`_. On this screen you can log in with the credentials recieved by your TTC Country Manager. This is a unique combination of an e-mail adress and password.
 
 
-Program index
-=============
+:index:`Program index`
+=======================
 If you succesfully entered the right e-mail adress and password, you are now logged in. You will see this screen. This is the program index page.
 
 
@@ -32,8 +32,8 @@ If you succesfully entered the right e-mail adress and password, you are now log
 
 #. On the right side of the screen there is a list called Recent Issues. In this list the most recent issues that have turned up in the system are shown. Typically incoming messages that the system is unable to correctly process end up in this list. This is a good thing to look at when a program is not working correctly.
 
-Program dashboard
-===================
+:index:`Program dashboard`
+===========================
 
 When you click on a project, you are redirected to the program home page. From this page you can manage the program to perform the tasks you want.
 

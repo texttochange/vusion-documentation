@@ -1,5 +1,5 @@
-Participant management
-+++++++++++++++++++++++++++
+:index:`Participant management`
+++++++++++++++++++++++++++++++++++
 This section covers participant management in Vusion. Managing your participants efficiently can be very important, especially in programs with a large number of participants. Vusion has a number of tools available to help you in the various tasks you might need to perform. 
 
 
@@ -13,8 +13,8 @@ Participants are a very important part of the Vusion system. A participant is id
 
 	The Vusion participants screen 
 
-Adding participants
-----------------------------
+:index:`Adding participants`
+------------------------------
 
 One of the first and most basic tasks when you start using Vusion is adding participants to the Vusion database. In order to send a message you need to have at least one participant in your database. 
 
@@ -33,7 +33,7 @@ In order to add a participant click on the Add button.
 Now you will see a screen where you can enter a phone number. Enter the phone number of the participant you want to add and click Save. Congratulations, you have added a participant. Now this participant will show up in the Participants screen.
 
 
-Importing participants from a file
+:index:`Importing participants` from a file
 =====================================
 In many cases adding participants one by one is not very efficient. Luckily there is another way of adding participants and that is by importing them from a file. Using the Import button the Import Participants screen is reached. Here you can choose a file from which Vusion will import the contacts. 
 
@@ -59,8 +59,8 @@ You can import from a CSV or XLS file. The first column should contain the telep
 In the Import Participants screen you can also automatically add a tag to the imported participants. Put the tag you want to add to the participants in the "Tag imported participants" field. When you selected the right file and the tag you want to add, click upload. The file will be uploaded and the participants will be added to the database with correct tags attached. 
 
 
-Managing participants
-----------------------
+:index:`Managing participants`
+-------------------------------
 
 Managing your participants can be done in two ways. If you need to make a change to a single participant, or maybe just a few, you can manage them individually. You can also perform actions on groups of participants by first selecting the right group and then performing the action on the whole group.
 
@@ -74,7 +74,7 @@ There are cases when yo need to perform an action on an individual participant. 
 - The **Edit** button brings up a screen where you can change information about the participant. Things you can change here are: Phone number, Labels, Tags and the Dialogues the participant is enrolled in. 
 - The Delete button will delete the participant from the database, including the participant history. This action is permanent and can not be undone, so be careful.
 
-Filtering participants
+:index:`Filtering participants`
 ===============================
 When actions need to be applied to larger groups of participants, the controls on the top make handling large groups easy. Actions you can perform on groups of participants are: Export, Tag, Untag and Delete. Before you can perform an action on a group of participants, the first thing to do is to select the group you want to perform the action on. It is very important to select the right group, otherwise things can easily go wrong. Selecting the group is done using the Filter button. 
 

@@ -2,6 +2,7 @@ Welcome to the Vusion documentation
 
 .. image:: /_static/img/vusion-logo-wide.png 
 
+
 .. toctree::
    :maxdepth: 2
    :titlesonly:
@@ -13,6 +14,7 @@ Welcome to the Vusion documentation
    /basic/seperatemessage
    /basic/participant_management
    /basic/filtering-history
+   
    /advanced/requests
 
 

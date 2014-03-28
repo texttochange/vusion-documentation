@@ -1,5 +1,5 @@
-Dialogues
-+++++++++++
+:index:`Dialogues`
+++++++++++++++++++++
 
 .. warning::
 	Guide on Dialogues in Vusion. This section is under construction and only contains an outline at this moment.

@@ -1,5 +1,5 @@
-Filtering History
-====================
+:index:`Filtering History`
+============================
 
 The program history provides some powerful filtering tools. Start by going to the history page of a program and clicking on the filter button at the top right of the screen. This will give you yellow block in which you can start defining your filter. 
 

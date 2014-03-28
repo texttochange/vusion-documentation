@@ -5,8 +5,8 @@ Sending a message to a group of people in Vusion is easy. This guide will explai
 
 
 
-Seperate messages
-==================
+:index:`Seperate messages`
+============================
 
 In the program menu there is a menu item called Seperate Messages. This will bring you to the Seperate messages screen. 
 
@@ -82,8 +82,8 @@ Once These things are set, click Save to save the message you created. If you sc
 
 
 
-Predefined Messages
-======================
+:index:`Predefined Messages`
+===============================
 
 In the program menu under Seperate Messages there is a menu item called Predefined Messages. In this screen you can define and save a message that you can later use as for instance a seperate message. This can be useful if you have to send the same message multiple times. 
 

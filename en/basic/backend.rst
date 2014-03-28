@@ -19,8 +19,8 @@ On the right of this you can see the aggregators and the networks. This section 
 
 
 
-Vusion server
------------------
+:index:`Vusion server`
+--------------------------
 
 First we will focus on the left side of the image: the Vusion server. The Vusion server is a software system that runs on a virtual server in the cloud. The software system performs a number of tasks.
 
@@ -34,7 +34,7 @@ Finally, besides sending messages the software is also capable of recieving mess
 The Vusion server with the Vusion software on it is the brain of the system. It is the place where everything is controlled from, and where the decisions are made. 
 
 .. note::
-   **Security**
+   :index:`Security` 
 
    As programs might contain important or sensitive data, the security of the Vusion system is very important. We have taken the nescessary steps to ensure that the Vusion system is properly secured. The system is hosted in a cloud located in a secured datacenter. This way of hosting ensures that even if one of the machines fails, the system will continue to run on a different machine. If this reduntant setup were to fail, your data is still not lost. The system creates a back-up daily that is encrypted and stored off-site. These backups are kept for three months. This will ensure that the data of your research will not be lost. 
 
@@ -42,8 +42,8 @@ The Vusion server with the Vusion software on it is the brain of the system. It 
 
 
 
-Transport network
--------------------
+:index:`Transport network`
+-------------------------------
 
 In the previous section we talked about the Vusion software system. In this section we will cover how Vusion sends a text message that ends up at the phone of the right person.
 
@@ -67,7 +67,7 @@ An aggregator is a local company that has a connection with some or all mobile n
 
 
 .. note::
-	**Shortcodes**
+	:index:`Shortcodes`
 
 	Normally mobile phone numbers are around 10 digits long. This is too long for people to remember quickly. In a lot of campaigns people can text a certain word to a telephone number to recieve information or to join a program. If they have to remember a very long number this does not work. To solve this problem, mobile network operators offer a service called **shortcode**. A shortcode is a special, short telephone number that can be assigned to a service. It is usually 4 or 5 digits long, which means it is easy for people to remember. 
 	When someone sends a text to a shortcode, the message is forwarded to the destination that the shortcode is registered to. In our case, Vusion. 
