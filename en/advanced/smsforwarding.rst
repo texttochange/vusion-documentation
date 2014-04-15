@@ -50,6 +50,16 @@ So with this notification message content:
 * **[context.message]**       will show the message context sent by the participant.
 * **[time.H]**                will show the hour the participant sent the Alert message.
 * **[time.M]**                will show the minutes the participant sent the Alert message.
+* **[time.d]**                will show the day of the month in number the participant sent the Alert message.
+* **[time.m]**                will show the month of the year in number the participant sent the Alert message.
+* **[time.y]**                will show the year without century.
 
 if participant sent "Alert help" where "Alert" is the keyword. The participant tagged to receive this message will reveive the message below 
 **"Alert Tom (+2567702222) at 3rd av behind city mall mombasa says 'Alert help' at 10:50"**
+
+
+Another example with more time element:
+"Alert from **[participant.name]** at **[time.H]**:**[time.M]** on **[time.d]**/**[time.m]**"
+
+will be frowarded as:
+**"Alert from +2567702222 at 10:50 on the 09/04"**
