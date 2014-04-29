@@ -90,7 +90,7 @@ There are many different Actions currently implemented in Vusion that you can us
 
 - **opt-in**: This will register the sender as a Participant of the program. The sender will be put in the Participant database. A participant has opt-in for Vusion to be able to send messages to the participant.
 - **opt-out**: This action cancels the opt-in action described above. It will put the Participant in an opt-out state. Participants who are in the opt-out state will not recieve messages from the program and they will be colored red in the participants screen. 
-- **enroll**:  This action puts the participant in a dialogue. For more information about Dialogues, see the Dialogue guide. reference to guide Dialogues -> enrolling
+- **enroll**:  This action puts the participant in a dialogue. For more information about Dialogues, see the :doc:`Dialogues guide </advanced/dialogues>`
 - **delayed enroll**: Performs the Enroll action with a delay. You can select a delay of a number of days, and you can also select the time at which the enrollment should take place.
 - **tag**: Add a tag to the participant. A tag can be used to for instance mark a participant as suitable or unsuitable for the program.
 - **reset**: Perform an opt-out followed by an opt-in. It will remove all tags and labels and put the Participant in the database as a clean Participant.
