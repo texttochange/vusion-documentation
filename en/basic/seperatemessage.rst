@@ -22,18 +22,19 @@ In this screen you can see a list of previously sent Seperate Messages with some
 There is also the possibility to delete a Seperate Message. If the message has not yet been sent, the message will be removed from the schedule. If the message has already been sent, deleting it will delete the record of the message in Vusion.
 
 
-.. warning:: Box needs checking
 .. note::
-	Most characteristics of the messages are self-explanatory. The Time shows the time the message was created for instance. One thing that is not so straightforward is the Delivery column. In this column you will see six numbers, of which the exact meaning is not immediately clear. These numbers represent the status of the delivery of messages. These are some very technical details that are also closely linked to the way messages are sent in Vusion. Let me try to explain. Imagine that there is a message with this delivery status: 6 (5/4/3 -2/1)
+	Most characteristics of the messages are self-explanatory. The Time shows the time the message was created for instance. One thing that is not so straightforward is the Delivery column. In this column you will see six numbers, of which the exact meaning is not immediately clear. These numbers represent the status of the delivery of messages. These are some very technical details that are also closely linked to the way messages are sent in Vusion. Let me try to explain. Imagine that there is a message with this delivery status: **6 (5/4/3 -2/1)**
 
 	- 6: The total number of messages sent
 
-	- 5: The number of messages that have been accepted by the telephone company
-	- 4: The number of messages that are still waiting to be accepted by the telephone company
-	- 3: The number of messages that are rejected by the telephone company
+	- 5: *(delivered)* The number of messages for which a confirmation of delivery has been received from the operator.
+	- 4: *(pending)* The number of messages that are still in the queue within Vusion.
+	- 3: *(failed)* The number of messages gor which delivery has failed, based on reports from the operator.
 
-	- 2: Check
-	- 1: Check
+	- 2: *(Ack)* Messages that have been sent to the operators and of which the operators have confirmed that they received the message.
+	- 1: *(Nack)* Messages that have been sent to the operator but the operator has not yet confirmed that the message was received.
+	
+	Details like these can help troubleshoot when there are issues concerning connectivity or messages not reaching the participant. 
 
 
 Sending a seperate message is easy: in the Seperate Messages screen, click on New Seperate Message. This will bring you to the Add Seperate Message screen. 
