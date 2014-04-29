@@ -32,6 +32,7 @@ Advanced topics
 ==================
 
 #. :doc:`Requests </advanced/requests>`
+#. :doc:`Dialogues </advanced/dialogues>`
 #. :doc:`Mini guide: Using .CSV files in Excel </advanced/csv_split>`
 #. :doc:`Limit feature </advanced/limit>`
 #. :doc:`Content Variables (Dynamic Content)</advanced/contentvariable>`

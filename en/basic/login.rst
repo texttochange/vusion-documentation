@@ -56,8 +56,8 @@ There are guides available to explain most of the features in the Navigation Men
 
 
 =======================   ========================================    ===============================================================
-**Requests**              Manage requests                             :doc:`Requests guide <requests>`
-**Dialogues**             Manage dialogues                            No guide available yet
+**Requests**              Manage requests                             :doc:`Requests guide </advanced/requests>`
+**Dialogues**             Manage dialogues                            :doc:`Dialogue guide </advanced/dialogues>`
 **Seperate Messages**     Send seperate messages                      :doc:`Seperate messages guide <seperatemessage>`
 **Predefined Messages**   Predefine messages for later use            see :doc:`Seperate messages guide <seperatemessage>`
 **Content Variables**     Set up variables to be used in messages     :doc:`Content Variable guide </advanced/contentvariable>`
