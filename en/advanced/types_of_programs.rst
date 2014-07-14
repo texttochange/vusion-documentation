@@ -1,5 +1,6 @@
-:index:'Some examples of types of programs that can be created in vusion'
------------------------------------------------------------------
+:index:`Some examples of types of programs that can be created in vusion`
+###################################################################
+
 Here we will cover the types of programs that can be created in Vusion.
 
 Menu style program
@@ -52,7 +53,7 @@ The program is still available on Vusion at the URL: http://vusion-test.texttoch
 
 
 :index:`chatroom style program`
-################################
+-------------------------------
 
 Description
 ------------
