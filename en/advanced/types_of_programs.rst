@@ -52,11 +52,9 @@ More 24000 Participants got involved and more than 652000 messages were sent.
 The program is still available on Vusion at the URL: http://vusion-test.texttochange.org/m4rh
 
 
-:index:`chatroom style program`
--------------------------------
+Chatroom style program
+=======================
 
-Description
-------------
 In a chatroom style program, Participants can exchange message within a group of participant. To represent the group, one has to use TAGs or LABELs. In a chatroom by Tag program, one is using TAGs to define groups. Once the group is defined participants having the same tag can send messages to each other 
 For example; we have a set of participant who are all tagged CHATROOM.  When one of those participants send “CHAT HELLO, the participants tagged with the receiver tag “CHATROOM” will receive **“+256772111111 sent Chat Hi”.**
 **TIP: Chatroom by Tag is a basic chatroom setup which can be used for a small number of groups. In order to manage multiple groups, one should consider using Chatroom by Labels.**
