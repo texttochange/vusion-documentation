@@ -43,7 +43,8 @@ Advanced topics
 
 Types of Programs
 ===================
-#. :doc:`Example types of programs </advanced/types_of_programs>`
+#. :doc:`Menu Style Program </advanced/menu_style_program>`
+#. :doc:`Chatroom Style Program </advanced/chatroom_style_program>`
 
 
 
