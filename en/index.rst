@@ -40,7 +40,7 @@ Advanced topics
 #. :doc:`SMS Forward Action </advanced/smsforwarding>`
 #. :doc:`Understanding User Levels </advanced/understanding-user-levels>`
 #. :doc:`Menu Style Program </advanced/menu_style_program>`
-#. :doc:`Chatroom Style Program</advanced/chatroom_style_program>`
+#. :doc:`Chatroom Style Program </advanced/chatroom_style_program>`
 
 
 
