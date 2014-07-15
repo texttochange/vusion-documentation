@@ -43,8 +43,8 @@ Advanced topics
 
 Types of Programs
 ===================
-#. :doc:`Menu Style Program </advanced/menu_style_program>`
-#. :doc:`Chatroom Style Program </advanced/chatroom_style_program>`
+#. :doc:`Menu Style Program </program-type/menu_style_program>`
+#. :doc:`Chatroom Style Program </program-type/chatroom_style_program>`
 
 
 
