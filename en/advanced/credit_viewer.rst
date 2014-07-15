@@ -30,6 +30,7 @@ If your account belong to one of those groups, a link will appear in the top bla
 By default when accessing the page, the viewer will show today's credit only.
 
 .. image:: _static/img/credit_viewer_home.png
+   :width: 500px
 
 The credits are group by Countries. And one can already see a summary of the sent and received message per country.
 
@@ -41,11 +42,14 @@ So the sum of all shorcodes sent credits is equal to the country's sent credits.
 First is *countires*. Within each countries, there is different *shortcodes*. 
 
 .. image:: _static/img/credit_viewer_shortcodes.png
+   :width: 500px
 
 
 Second is *shortcodes*. Within each shortcodes, multiple *programs* are running. 
 
 .. image:: _static/img/credit_viewer_programs.png
+   :width: 500px
+
 
 Note that programs that are not spending any credits will NOT be displayed even though they might be running.
 
@@ -54,7 +58,7 @@ Note that programs that are not spending any credits will NOT be displayed even 
 Within each program, a break down is also available for sent credits: 
 
 .. image:: _static/img/credit_viewer_program_outgoing_details.png
-
+   :width: 500px
 
 #### Deleted Programs
 
@@ -66,6 +70,7 @@ When receiving messages. Vusion might fail to identify to which program it belon
 Note that an automatic response might have been define for this shortcode and therefor an response be send back to the originator of the message.
 
 .. image:: _static/img/credit_viewer_unmatchable_replies.png
+   :width: 500px
 
 ### Change the timeframe
 
@@ -73,3 +78,4 @@ One can change the timeframe for witch the credits are displayed. Click on the *
 Then click on **Calculate** to access the data.
 
 .. image:: _static/img/credit_viewer_timeframe_selector.png
+   :width: 500px
