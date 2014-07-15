@@ -56,6 +56,11 @@ Note that programs that are not spending any credits will NOT be displayed even 
 **Programs Details**
 
 Within each program, a break down is also available for sent credits: 
+- Pending: messages that have been sent by program but still in Vusion.
+- ACKed: messages that have been transmitted to the aggregator/operator.
+- nACKed: messages that have been transmitted to the aggregator/operator but never acknowledged.
+- Delivered: messages that have been delivered on the participant's phone.
+- Failed: messages that are failed permanently. It can be due to various reasons: aggregator failure, operator failure, network failure, ....
 
 .. image:: _static/img/credit_viewer_program_outgoing_details.png
    :width: 500px
