@@ -39,7 +39,8 @@ Advanced topics
 #. :doc:`Proportional Tagging Action </advanced/proptag>`
 #. :doc:`SMS Forward Action </advanced/smsforwarding>`
 #. :doc:`Understanding User Levels </advanced/understanding-user-levels>`
-#. :doc:`Example types of programs </advanced/types_of_programs>`
+#. :doc:`Menu Style Program </advanced/menu_style_program>`
+#. :doc:`Chatroom Style Program</advanced/chatroom_style_program>`
 
 
 
