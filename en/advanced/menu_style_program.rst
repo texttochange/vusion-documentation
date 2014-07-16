@@ -24,14 +24,15 @@ Enter the keyword, for example **JOIN**
 
 **4 :** Save and exit 
 
-**B :** Create OPTION KEYWORD 11.  
-**1 :** Go to requests, create new request. 
-**2 :** Enter the keyword, for example 11. 
-**3 :** Add response for example 11 Implants are small rods placed under skin of woman’s arm. Highly effective for 3-5 years. For married and singles. May cause light irregular bleeding
+**B :** Create OPTION KEYWORD 11
+
+ 1. Go to requests, create new request. 
+ 2. Enter the keyword, for example 11. 
+ 3. Add response for example 11 Implants are small rods placed under skin of woman’s arm. Highly effective for 3-5 years. For married and singles. May cause light irregular bleeding
 
 .. image:: _static/img/11_menu_keyword.JPG
 
-**4 :** save and exit
+ 4 .Save and exit
 
 **TIP1 :** it is recommended to split long response into multiple response of 160character. Indeed in sending a SMS longer that 160char would increase the risk of the participant only receiving part of the response. 
 
