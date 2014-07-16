@@ -24,9 +24,9 @@ Enter the keyword, for example **JOIN**
 
 **4 :** Save and exit 
 
-**B :** Create OPTION KEYWORD 11  
-**1 :** Go to requests, create new request 
-**2 :** Enter the keyword, for example 11 
+**B :** Create OPTION KEYWORD 11.  
+**1 :** Go to requests, create new request. 
+**2 :** Enter the keyword, for example 11. 
 **3 :** Add response for example 11 Implants are small rods placed under skin of woman’s arm. Highly effective for 3-5 years. For married and singles. May cause light irregular bleeding
 
 .. image:: _static/img/11_menu_keyword.JPG
