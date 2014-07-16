@@ -56,6 +56,7 @@ Note that programs that are not spending any credits will NOT be displayed even 
 **Programs Details**
 
 Within each program, a break down is also available for sent credits: 
+
 - Pending: messages that have been sent by program but still in Vusion.
 - ACKed: messages that have been transmitted to the aggregator/operator.
 - nACKed: messages that have been transmitted to the aggregator/operator but never acknowledged.
