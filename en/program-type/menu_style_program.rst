@@ -8,7 +8,8 @@ How to
 -------
 To setup a basic Menu Style Program, user rely on Vusion’s Request and actions OPT-IN. Find below the step by step implementation of the example from the description.
 
-**A :** Create the MENU KEYWORD 
+**A : Create the MENU KEYWORD**
+
 **1 :** Go to requests, create a new request
 Enter the keyword, for example **JOIN**
 
@@ -24,7 +25,9 @@ Enter the keyword, for example **JOIN**
 
 **4 :** Save and exit
 
-**B :** Create OPTION KEYWORD 11
+
+
+**B : Create OPTION KEYWORD 11**
 
 **1 :** Go to requests, create new request 
 

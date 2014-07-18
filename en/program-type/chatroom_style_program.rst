@@ -10,6 +10,7 @@ How to create a chatroom by tag
 To implement a chatroom by tag program,  user rely on only one Vusion Request with an Action SMS FORWARDING.  Find below the step by step implementation of the description example.
 
 **1 :** Go to Requests and create a new request.
+
 **2 :** Create the keyword that will be used to chat
 
 .. image:: _static/img/req_chat.JPG
