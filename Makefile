@@ -8,7 +8,7 @@ ES_HOST =
 .PHONY: all clean html latexpdf epub htmlhelp website website-dirs
 
 # Languages that can be built.
-LANGS = en es vusion-documentation/index.rst
+LANGS = en es index.rst
 
 # pdflatex does not like ja or ru for some reason.
 PDF_LANGS = en es
