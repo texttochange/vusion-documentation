@@ -9,11 +9,10 @@ English_
 
 Spanish_
 
-.._English: http://vusion-doc.texttochange.org/en/eng.htm
+.. _English: http://vusion-doc.texttochange.org/en/
 
-.._Spanish: http://vusion-doc.texttochange.org/es.htm
+.. _Spanish: http://vusion-doc.texttochange.org/es/
 
-
-#. :doc:`English</eng>`
+ :doc:`English</eng>`
 
 #. :doc:`Spanish<http://vusion-doc.texttochange.org/es>`
