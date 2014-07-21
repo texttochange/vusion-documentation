@@ -1,4 +1,5 @@
 Welcome to the Vusion documentation
+======================================
 
 .. image:: /_static/img/vusion-logo-wide.png 
 
