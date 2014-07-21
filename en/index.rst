@@ -12,3 +12,8 @@ Spanish_
 .._English: http://vusion-doc.texttochange.org/en/eng.htm
 
 .._Spanish: http://vusion-doc.texttochange.org/es.htm
+
+
+#. :doc:`English</eng>`
+
+#. :doc:`Spanish<http://vusion-doc.texttochange.org/es>`
