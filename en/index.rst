@@ -9,7 +9,7 @@ French_
 
 .. _Spanish: http://vusion-doc.texttochange.org/es/
 
-.. _French: http://vusion-doc.texttochange.org/fre/
+.. _French: http://vusion-doc.texttochange.org/fr/
 
 .. toctree::
    :maxdepth: 2
