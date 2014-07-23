@@ -1,6 +1,15 @@
 Bienvenido a la documentación de Vusion 
 
 .. image:: /_static/img/vusion-logo-wide.png 
+English_
+Spanish_
+French_
+
+.. _English: http://vusion-doc.texttochange.org/en
+
+.. _Spanish: http://vusion-doc.texttochange.org/es/
+
+.. _French: http://vusion-doc.texttochange.org/fre/
 
 .. toctree::
    :maxdepth: 2
