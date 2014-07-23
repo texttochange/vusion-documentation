@@ -1,8 +1,8 @@
 Welcome to the Vusion documentation
 
 .. image:: /_static/img/vusion-logo-wide.png
-English_
-Spanish_
+English_ |
+Spanish_ |
 French_
 
 .. _English: http://vusion-doc.texttochange.org/en
