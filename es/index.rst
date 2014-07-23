@@ -69,3 +69,5 @@ Guías Antiguas
 
 #. :doc:`Terminología </getting-started/terms>`
 #. :doc:`Acciones </getting-started/actions>`
+
+We are constantly trying to improve the Vusion documentation. If there are subjects missing or if there are errors in one of the guides, please use the English version and  contact us. 
