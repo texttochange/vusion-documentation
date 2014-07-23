@@ -1,8 +1,6 @@
 Welcome to the Vusion documentation
-![alt text][/_static/img/vusion-logo-wide.png]
 
-.. image:: /_static/img/vusion-logo-wide.png 
-
+.. image:: /_static/img/vusion-logo-wide.png
 English_
 Spanish_
 French_
