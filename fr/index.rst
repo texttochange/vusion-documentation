@@ -11,8 +11,7 @@ French_
 
 .. _French: http://vusion-doc.texttochange.org/fre/
 
+Coming soon
+===========
 
-
-
-
-We are constantly trying to improve the Vusion documentation. If there are subjects missing or if there are errors in one of the guides, please use the English version and  contact us. 
+Coming soon please use the English version for now.
