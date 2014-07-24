@@ -1,4 +1,4 @@
-Contenidos
+Menu
 ############
 
 .. toctree::
@@ -10,5 +10,5 @@ Contenidos
 .. todolist::
 
 .. meta::
-    :title lang=en: Contents
-    :keywords lang=en: 
+    :title lang=fr: Contents
+    :keywords lang=fr: 

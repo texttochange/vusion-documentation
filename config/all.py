@@ -36,10 +36,10 @@ copyright = u'2014, Text To Change'
 # built documents.
 #
 # The short X.Y version.
-version = '0.5'
+version = '1.x'
 
 # The full version, including alpha/beta/rc tags.
-release = '0.5.1'
+release = '1.x'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -94,7 +94,7 @@ html_theme_path = ['../themes']
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
-html_short_title = u'Vusion 0.5.x'
+html_short_title = u'Vusion 1.x'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -120,7 +120,7 @@ html_static_path = ['../themes/vusion/_static']
 
 # Custom sidebar templates, maps document names to template names.
 html_sidebars = {
- '**' : ['localtoc.html','searchbox.html']
+ '**' : ['localtoc.html','searchbox.html', 'language.html']
 }
 #html_sidebars = {'**' : ['globaltoc.html', 'localtoc.html', 'sourcelink.html','searchbox.html'] }
 

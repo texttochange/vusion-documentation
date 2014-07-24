@@ -10,5 +10,5 @@ Contenidos
 .. todolist::
 
 .. meta::
-    :title lang=en: Contents
-    :keywords lang=en: 
+    :title lang=es: Contents
+    :keywords lang=es: 
