@@ -44,6 +44,10 @@ Types of Programs
 #. :doc:`Menu Style Program </program-type/menu_style_program>`
 #. :doc:`Chatroom Style Program </program-type/chatroom_style_program>`
 
-
+API
+=====
+#. :doc:`General Design </api/general_design>`
+#. :doc:`Separate Message </api/separate_message>`
+#. :doc:`Participant </api/participant>`
 
 We are constantly trying to improve the Vusion documentation. If there are subjects missing or if there are errors in one of the guides, please contact us. 
