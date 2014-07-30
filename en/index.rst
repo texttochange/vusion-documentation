@@ -35,7 +35,7 @@ Advanced topics
 #. :doc:`Limit feature </advanced/limit>`
 #. :doc:`Content Variables (Dynamic Content)</advanced/content_variable>`
 #. :doc:`Proportional Tagging Action </advanced/proptag>`
-#. :doc:`SMS Forward Action </advanced/smsforwarding>`
+#. :doc:`SMS Forward Action </advanced/sms_forwarding>`
 #. :doc:`Understanding User Levels </advanced/understanding-user-levels>`
 #. :doc:`Credit Viewer </advanced/credit_viewer>`
 #. :doc:`Message Customisation </advanced/message_customisation>`

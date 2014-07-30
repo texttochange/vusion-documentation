@@ -23,13 +23,15 @@ How To Set a SMS Forward
 
 Either in a Request or a Dialogue, you can select the action *SMS Forward* from the list of actions. Two fields appear as shown below:
  
-.. image:: _static/img/smsforwarding_action.png
+.. image:: _static/img/sms_forwarding_action.png
+   :width: 700px
 
-**Receiver Tag:** 
-In this textbox, you enter the tag of participant to will receive the message. Please make sure that some partipants are currently opt-in and are tagged with this tag otherwise nobody will be notified.
-
-**Content:** 
-In this textarea, you enter the notification message that will be send. For more details on how to customize this message, see the next section.
+* *Receiver Tag(s) or Label(s)* is a textbox, you enter the tags or labels that participant must match in order to receive the notification message. Please make sure that some partipants are currently opt-in and are tagged with this tag otherwise nobody will be notified.
+* *Retrieve a condition in the message*, is a checkbox to indicate that some condition on who to forward this SMS are in the initial SMS itself.
+  When checking this box, two more fields have to be defined:
+	* *type of condition* for now, only "phone" is available
+	* *feedback in case no participant is matching* which is a feedback message return to the send in case no participant is matching his condition.
+* *Content* is this textarea, you enter the notification message that will be send. For more details on how to customize this message, see the next section.
 
 
 :index:`Notification Message`
