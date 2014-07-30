@@ -1,31 +1,56 @@
 :index:`Content variable`
-===========================
+---------------------------
 
-When selecting Content Variables in the left menu dynamic content can be edited.
-The interface comes up with two fields in the current version. Key and Value.
+Content Variables aims to be use for message customisation. It allow to change the content of MT messages by only modifying the used Content Variable. The Content Variables are reusable over the all program: Request, Separate Message , Dialogue, ...
 
-The key is the name of your dynamic content, for example 'Temperature'. The value is the actual content, so for example 10 degrees.
-When you want to access this content in a message, reply, dialogue use the following syntax:
+There are 2 type of content variable:
 
-*[contentVariable.key]*
+* *key/value* a simple key-value pair 
+* *table* a two dimension table, it's looking like an Excel sheet. 
 
-So in this case that would come down to
+Key/Value
+==========
+The key is the name of content, for example 'Temperature'. The value is the actual content, so for example 10 degrees.
 
-*[contentVariable.Temperature]*.
+Example of key/value pair:
+
+=============  ========
+Key            Value
+=============  ======== 
+temperature    25C
+chicken price  300KES
+...            ...
+=============  ========
+
+When you want to access the content variable in a Request/Dialogue/Separte Message, in the message content use the following syntax:
+::
+	"Hello [contentVariable.<key>]
 
 **Caution**
 
-Pay attention to the capitalization of contentVariable. If other capital letters are applied it won't work.
-The key is also capital sensitive, so if you use 'temperature' in stead of 'Temperature' the message will not be delivered. 
+Pay attention to the capitalization of contentVariable. If other capital letters are applied it won't work. The key is also capital sensitive, so if you use 'Temperature' in stead of 'temperature' the message will not be delivered. 
+
+See more about :doc:`Message Customisation </advanced/message_customisation>`
+
+Table
+==========
+
+In the case of table, one can store a excel-like table. The right column and the top row being the keys to access the values. 
+
+Example
+======= ======
+Item    Price
+======= ======
+chicken 300KES
+fish    200KES
+======= ======
+
+To use it to customise a message, one would use:
+::
+	"Hello today price of fish is [contentVariable.fish.price]"
+
+See more about :doc:`Message Customisation </advanced/message_customisation>`
 
 
-Participant variable
-=================================
 
-When participants have a label this can also be used in a message.
-If participants for example have a label Name and you want to greet them use the following syntax
-
-*Hello [participant.name]*
-
-If the participant does not have a label called 'name' the message will not be sent. You can easily see this in the program history, it will show missing-date under status of the message.
 
