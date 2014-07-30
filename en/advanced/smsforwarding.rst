@@ -1,4 +1,4 @@
-:index:`Sms forwarding`
+:index:`SMS forwarding`
 ########################
 
 Use Case
@@ -35,31 +35,29 @@ In this textarea, you enter the notification message that will be send. For more
 :index:`Notification Message`
 ------------------------------
 
-This is an example of notification message. In this example we assume that the send of the alert has been created on the program with 2 label:
+This is an example of notification message. 
+
+In this example we assume that the send of the alert has been created on the program with 2 label:
 
 #. name:Tom
 #. address:3rd av behind city mall mombasa
 
 So with this notification message content:
+::
+	"Alert [participant.name] ([participant.phone]) at [participant.address] say '[context.message]' at [time.H]:[time.M]"
 
-"Alert **[participant.name]** (**[participant.phone]**) at **[participant.address]** say '**[context.message]**' at **[time.H]**:**[time.M]**"
+will be customized as:
+::
+	"Alert Tom (+2567702222) at 3rd av behind city mall mombasa says 'Alert help' at 10:50"
+	
 
-* **[participant.name]**      will show the name of the participant sending the Alert message.
-* **[participant.phone]**     will show the phone number of the participant sending the Alert message.
-* **[participant.address]**   will show the address of the participant sending the Alert message.
-* **[context.message]**       will show the message context sent by the participant.
-* **[time.H]**                will show the hour the participant sent the Alert message.
-* **[time.M]**                will show the minutes the participant sent the Alert message.
-* **[time.d]**                will show the day of the month in number the participant sent the Alert message.
-* **[time.m]**                will show the month of the year in number the participant sent the Alert message.
-* **[time.y]**                will show the year without century.
+Another example with more time elements:
+::
+	"Alert from [participant.name] at [time.H]:[time.M] on [time.d]/[time.m]"
 
-if participant sent "Alert help" where "Alert" is the keyword. The participant tagged to receive this message will reveive the message below 
-**"Alert Tom (+2567702222) at 3rd av behind city mall mombasa says 'Alert help' at 10:50"**
+will be customized as:
+::
+	"Alert from +2567702222 at 10:50 on the 09/04"
 
 
-Another example with more time element:
-"Alert from **[participant.name]** at **[time.H]**:**[time.M]** on **[time.d]**/**[time.m]**"
-
-will be frowarded as:
-**"Alert from +2567702222 at 10:50 on the 09/04"**
+For more details on :doc:`Message Customisation </advanced/message_customisation>`

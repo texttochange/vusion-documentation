@@ -33,11 +33,12 @@ Advanced topics
 #. :doc:`Dialogues </advanced/dialogues>`
 #. :doc:`Mini guide: Using .CSV files in Excel </advanced/csv_split>`
 #. :doc:`Limit feature </advanced/limit>`
-#. :doc:`Content Variables (Dynamic Content)</advanced/contentvariable>`
+#. :doc:`Content Variables (Dynamic Content)</advanced/content_variable>`
 #. :doc:`Proportional Tagging Action </advanced/proptag>`
 #. :doc:`SMS Forward Action </advanced/smsforwarding>`
 #. :doc:`Understanding User Levels </advanced/understanding-user-levels>`
 #. :doc:`Credit Viewer </advanced/credit_viewer>`
+#. :doc:`Message Customisation </advanced/message_customisation>`
 
 Types of Programs
 ===================
