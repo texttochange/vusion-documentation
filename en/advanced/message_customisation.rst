@@ -96,20 +96,47 @@ Currently context is only use with "message".
 
 An evolved notation is available in order to manipulate easily the incoming message.
 
+**One word only**
+
 One wants to only use a certain word of the message.
 
 * *[context.message.1]* will show the 1st word of the message
 * *[context.message.2]* will show the 2nd word of the message
 
-One wants to show the message except the 1st or the second word
+To illustrate, let's take the example of a action feedback. One want to forward the second word only.
+::
+	"Welcome [context.message.2]"
+
+so if the initial message from +2568473262 is "Name Olivier"
+::
+	"Welcome Olivier"
+
+**Set of words: after**
+
+One can use the *after* notation to add all words after a certain word position.
 
 * *[context.message.after.1]* will show the all message except the first word
 * *[context.message.after.2]* will show the all message except the 2 first word
 
-Let's take the example of a action SMS Forwaring. One want to forward the message from the initial sender without the keyword.
+To illustrate, let's take the example of a action SMS Forwaring. One want to forward the message from the initial sender without the keyword.
 ::
 	"[participant.phone] sent: [context.message.after.1]"
 
 so if the initial message from +2568473262 is "Doctor i'm sick"
 ::
 	"+2568473262 sent: i'm sick"
+
+**Set of words: before**
+
+One can use the *before* notation to add all the words before a certain word position.
+
+* *[context.message.before.1]* will show nothing as there is nothing before the 1st words.
+* *[context.message.before.2]* will show the 1 word of the message.
+
+To illustrate, let's take the example of SMS forward to notify the manager every time a doctor is answering a patient.
+::
+	"Doctor [participant.phone] [context.message.before.3]"
+
+so if the initial message from +2568473262 is "Answer +2561111111 please come at the clinic urgently"
+::
+	"Doctor +2568473262 Answer +2561111111"
