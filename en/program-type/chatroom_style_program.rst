@@ -6,7 +6,10 @@ For example; we have a set of participant who are all tagged CHATROOM.  When one
 **TIP: Chatroom by Tag is a basic chatroom setup which can be used for a small number of groups. In order to manage multiple groups, one should consider using Chatroom by Labels.**
 
 .. WARNING::
-	Such a program can potentially generate very many SMS. 5 people all saying 5 things will generate 5*4*5 = 100 messages, 10 people all saying 5 thing in the chatbox will generate 5*9*10=450 messages. More people will make the figures explode and partners might not realize this. 
+	Such a program can potentially generate very many SMS. 
+	A group of 5 people all sending 1 message will generate 25 SMS *= 5 participant sending x 1 message x (1 initial messages + 4 participant receiving)*.
+	For 10 people all sending 5 SMS will generate 500 SMS *= 10 participant sending x 5 messages x (1 initial messages + 9 participant receiving)*. 
+	More people will make the figures explode and partners might not realize this. 
 
     Good practice would be set an SMS limit in the program settings to avoid bad surprises.
 
