@@ -5,6 +5,11 @@ In a chatroom style program, Participants can exchange message within a group of
 For example; we have a set of participant who are all tagged CHATROOM.  When one of those participants send “CHAT HELLO, the participants tagged with the receiver tag “CHATROOM” will receive **“+256772111111 sent Chat Hi”.**
 **TIP: Chatroom by Tag is a basic chatroom setup which can be used for a small number of groups. In order to manage multiple groups, one should consider using Chatroom by Labels.**
 
+.. WARNING::
+	Such a program can potentially generate very many SMS. 5 people all saying 5 things will generate 5*4*5 = 100 messages, 10 people all saying 5 thing in the chatbox will generate 5*9*10=450 messages. More people will make the figures explode and partners might not realize this. 
+
+    Good practice would be set an SMS limit in the program settings to avoid bad surprises.
+
 How to create a chatroom by tag
 --------------------------------
 To implement a chatroom by tag program,  user rely on only one Vusion Request with an Action SMS FORWARDING.  Find below the step by step implementation of the description example.
