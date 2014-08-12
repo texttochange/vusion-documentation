@@ -19,21 +19,25 @@ To implement a chatroom by tag program,  user rely on only one Vusion Request wi
 
 **1 :** Go to Requests and create a new request.
 
-**2 :** Create the keyword that will be used to chat
+**2 :** Create the keyword that will be used to chat. Also tick the box "In case no matching..." in order for all receiving messages with the keyword "CHAT" to trigger this request.  
 
-.. image:: _static/img/req_chat.JPG
+.. image:: _static/img/req_chat.png
+   :width: 600px
 
 **3 :** Add an action SMS Forward
 
 .. image:: _static/img/req_sms_forward.jpg
+	:width: 600px
 
 **4 :** Receiver tag: In this textbox, you enter the tag of participant to will receive the message. make sure that some participants are currently opt-in and are tagged with this tag(CHATROOM) otherwise nobody will be notified
 
 .. image:: _static/img/req_chat_tag.JPG
+	:width: 600px
 
 **5 :** Content: In this textarea, you enter the notification message that will be sent, the notification message would be **“[participant.phone]** sent **[context.message]**
 
 .. image:: _static/img/content.JPG
+	:width: 600px
 
 **[participant.phone]** will show the phone number of the participant sending the message
 **[context.message]** will show the message context sent by the participant
