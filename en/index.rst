@@ -34,7 +34,8 @@ Advanced topics
 #. :doc:`Mini guide: Using .CSV files in Excel </advanced/csv_split>`
 #. :doc:`Limit feature </advanced/limit>`
 #. :doc:`Content Variables (Dynamic Content)</advanced/content_variable>`
-#. :doc:`Proportional Tagging Action </advanced/proptag>`
+#. :doc:`Proportional Tagging Action </advanced/proportional_tagging>`
+#. :doc:`Proportional Labelling Action </advanced/proportional_labelling>`
 #. :doc:`SMS Forward Action </advanced/sms_forwarding>`
 #. :doc:`Understanding User Levels </advanced/understanding-user-levels>`
 #. :doc:`Credit Viewer </advanced/credit_viewer>`
