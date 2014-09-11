@@ -1,10 +1,10 @@
 :index:`Proportional Labelling`
 +++++++++++++++++++++++++++++++
 
-Proportional labelling is a feature that enables participants to be automatically assigned to different groups by labelling them with different label value.
+Proportional Labelling is a feature that enables participants to be automatically assigned to different groups by labelling them with different label value.
 
 This feature can be useful to compare group reaction to different set of information. 
-Indeed when participant have been labelled, you could auto-enrol them in different dialogues.
+Indeed when participants have been labelled, you could auto-enrol them in different dialogues.
 
 If participants are to be distributed equally to all groups, all weights should be set to 1. 
 It is also possible to distribute them unequally. 

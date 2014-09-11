@@ -4,7 +4,7 @@
 Proportional tagging is a feature that enables participants to be automatically assigned to different groups by tagging them with different tags.
 
 This feature can be useful to compare group reaction to different set of information. 
-Indeed when participant have been tagged, you could auto-enrol them in different dialogues.
+Indeed when participants have been tagged, you could auto-enrol them in different dialogues.
 
 If participants are to be distributed equally to all groups, all weights should be set to one.
 It is also possible to distribute them unequally.
