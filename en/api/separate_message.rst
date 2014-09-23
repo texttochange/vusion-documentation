@@ -22,9 +22,9 @@ THERE IS NO VALIDATION THAT THE LISTED PHONE NUMBERS ARE OPTIN. //add more
 
 Example, to send a message to a list of participants, the request parameter should be: 
 
-================   ============
+=================  =============
 Keys               Values
-================   ============
+=================  =============
 content            Hello guys!
 send-to-type       phone
 send-to-phone[0]   256788601461
@@ -40,16 +40,16 @@ type-schedule      immediately
 
 Example, to send a message to participants with tag FISHERMAN or with label gender equal to Male, the request parameter should be: 
 
-============================ =================
-Keys                         Values
-============================ =================
-content                      Hello guys!
-send-to-type                 match
-send-to-match-operator       any
-send-to-match-conditions[0]  FISHERMAN
-send-to-match-conditions[1]  gender:Male
-type-schedule                immediately
-============================ ==================
+============================  =================
+Keys                          Values
+============================  =================
+content                       Hello guys!
+send-to-type                  match
+send-to-match-operator        any
+send-to-match-conditions[0]   FISHERMAN
+send-to-match-conditions[1]   gender:Male
+type-schedule                 immediately
+============================  =================
 
   
 **Optional parameters**
