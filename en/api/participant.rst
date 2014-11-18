@@ -102,3 +102,23 @@ Once a participant is optout, vusion will stop sending any message to this parti
 **Response**
 
 In case the action is successful, the regular response is provided.
+
+
+Run Actions
+============
+
+This call run actions associate with an question interaction (closed/open question or multi-keywords).
+
+**Action URL**
+::
+	… /programParticipants/runActions ...
+
+**Mandatory Parameters**
+
+* *phone* the phone number of the participant
+* *dialogue-id* the id of the dialogue
+* *interaction-id* the id of the interaction
+* *answer* the answer to be consider to the interaction (this should not include any KEYWORD)
+
+**Response**
+A validation is run on all the parameters, if the phone, dialogue-id, interaction-id or answer is not existing in the program, a validation error will be returned.
