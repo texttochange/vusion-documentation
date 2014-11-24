@@ -121,4 +121,26 @@ This call run actions associate with an question interaction (closed/open questi
 * *answer* the answer to be consider to the interaction (this should not include any KEYWORD)
 
 **Response**
-A validation is run on all the parameters, if the phone, dialogue-id, interaction-id or answer is not existing in the program, a validation error will be returned.
+A validation is run on all the parameters, if the phone, dialogue-id, interaction-id or answer is not existing in the program, a validation error will be returned. 
+In both case of success or validation error, the response code will be a HTTP 200. The status of the call is indicate by the *status* in the message body.
+See below an example of successfull call:
+::
+    {
+        "status": "ok",
+        "message": "The runActions succeed.",
+        "program-time":"2014-11-24T18:50:04+0300"
+    }
+
+See below an example of fail validation on 2 fields the phone number and the interaction-id are incorrect.
+::
+
+    {
+        "status": "fail",
+        "message": "The runActions failed.",
+        "program-time": "2014-11-24T21:35:29+0300",
+        "validation-errors": {
+            "phone": "No participant with phone: +25666666669.",
+            "interaction-id": "The dialogue with id 1 doesn't have an interaction with id a494f3dfae6"
+        }
+    }
+
