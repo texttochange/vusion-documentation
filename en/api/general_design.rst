@@ -1,15 +1,24 @@
 API General Design
 -------------------
 
+.. toctree::
+   :glob:
+
+   en/api/*
+
+
 Authentication and Security
 ==============================
 The authentication mechanism used is HTTP Basic authentication. The credentials have to be provide at each request.
 
-In order to secure the user credentials that are in the http header, the request can be perform with HTTPS. However be aware that the certificate is self-signed.
+In order to secure the user credentials that are in the http header, the request MUST BE PERFORMED with HTTPS.
+
+::warning:: Any HTTP call is automatically redirected to HTTPS. Therefor it is better to use directly HTTPS.
 
 Load
 =======
-Queries must be done in a sequential order, ie each HTTP call has to wait for the HTTP response before proceeding the next one. We do not allow parallel call from any partner. In case the partner needs more/faster processing of message we will work to improve the speed or allow multiple message in one request.
+Queries must be done in a sequential order, ie each HTTP call has to wait for the HTTP response before proceeding the next one. We do not allow parallel call from any partner. 
+In case the partner needs more/faster processing of message we will work to improve the speed or allow multiple message in one request.
 
 Request
 =========
@@ -18,7 +27,7 @@ The API is design to be accessible by HTTP POST.
 EACH request headers MUST contain: 
 
 #. The Basic Authentication header with Authorization
-#. Usual AJAX identification with X-Requested-With 
+#. Usual AJAX identification with X-Requested-With (optional if using *.json* after the action)
 #. The format of the post body with Content-Type
 
 Here is an example:
@@ -42,7 +51,7 @@ In this example the:
 * *https://vusion.texttochange.org/* is the base URL. For production, it’s http[s]://vusion.texttochange.org For testing, it’s http[s]://vusion-test.texttochange.org 
 * *myProgram/* is the program URL. It is unique url of your program, provide by Text To Change
 * *programParticipants/add* is the action URL to be performed
-* *.json* is the extension, it describe the format of the response. Only json is available for now.
+* *.json* is the extension, it describe the format of the response. For now only .json is available. 
 
 In the following API description, only the action is mention as the base URL, the programURL and extension are not changing.
 
@@ -62,10 +71,11 @@ Response
 At the HTTP level, the response will always be 200 OK. There are a few exception to this: 
 
 * the Authentication fail. In case the Authentication fail, an HTTP 401 is returned. 
-* on an edit action, the item ID is not found (for example a participant’s phone number). In such a case an HTTP 404 is returned.  
+* only on an edit action, the item ID is not found (for example a participant’s phone number). In such a case an HTTP 404 is returned.  
 * note that server might return a HTTP 500 - internal error - in such a case, contact Vusion support with the following information: URL used, parameters and a copy/past of the response (or screenshot). 
 
-The json responses will contain the field: status. The status value can be either ok or fail. Other field might be included depending of which feature has been used.
+The json responses will contain the field: status. The status value can be either **ok** or **fail**. 
+Other fields might be included depending of which action has been called.
 
 For example after a success, the response body would look like:
 ::
