@@ -1,9 +1,9 @@
-:index:`Participant management`
+:index:`Gestion des participants`
 ++++++++++++++++++++++++++++++++++
-This section covers participant management in Vusion. Managing your participants efficiently can be very important, especially in programs with a large number of participants. Vusion has a number of tools available to help you in the various tasks you might need to perform. 
+Cette section traite de la gestion des participants en Vusion. Gestion de vos participants efficace peut être très importante, en particulier dans les programmes avec un grand nombre de participants. Vusion a un certain nombre d'outils disponibles pour vous aider dans les différentes tâches que vous devrez effectuer. 
 
 
-Participants are a very important part of the Vusion system. A participant is identified by his or her cellphone number. In the Vusion database, more information can be added to the participant record, such as the date the participant was added to the database, dialogues the participant is enrolled in and various tags and labels containing additional information about the participant. All this information together can create a fairly extensive profile of a participant. This information can later be exported and used for analysis.
+Les participants sont une partie très importante du système Vusion. Un participant est identifié par son numéro de téléphone cellulaire. Dans la base de données Vusion, plus d'informations peuvent être ajoutées à l'enregistrement des participants, telles que la date du participant a été ajouté à la base de données, les dialogues et divers tags et les labels contenant des informations supplémentaires sur le participant. Ensemble de ces informations peut créer un profil assez complet d'un participant. Cette information peut ensuite être exporté et utilisé pour l'analyse.
 
 .. figure:: _static/img/part_list.png
 	:width: 800px
@@ -13,14 +13,14 @@ Participants are a very important part of the Vusion system. A participant is id
 
 	The Vusion participants screen 
 
-:index:`Adding participants`
-------------------------------
+:index:`Ajouter des participants`
+----------------------------------
 
-One of the first and most basic tasks when you start using Vusion is adding participants to the Vusion database. In order to send a message you need to have at least one participant in your database. 
+L'un des premiers et des plus élémentaires des tâches lorsque vous commencez à l'aide Vusion ajoute participants à la base de données Vusion. Pour envoyer un message, vous devez avoir au moins un participant dans votre base de données.
 
-Adding a single participant
+Ajout d'un seul participant
 ================================
-In order to add a participant click on the Add button. 
+Pour ajouter un participant, cliquez sur le bouton Ajouter.
 
 .. figure:: _static/img/part_add.PNG
 	:width: 800px
@@ -30,12 +30,12 @@ In order to add a participant click on the Add button.
 
 	The Vusion add participant screen 
 
-Now you will see a screen where you can enter a phone number. Enter the phone number of the participant you want to add and click Save. Congratulations, you have added a participant. Now this participant will show up in the Participants screen.
+Maintenant, vous verrez un écran où vous pouvez saisir un numéro de téléphone. Entrez le numéro de téléphone du participant que vous voulez ajouter et cliquez sur Enregistrer. Félicitations, vous avez ajouté un participant. Maintenant, ce participant sera affiché sur l'écran des participants.
 
 
-:index:`Importing participants` from a file
-=====================================
-In many cases adding participants one by one is not very efficient. Luckily there is another way of adding participants and that is by importing them from a file. Using the Import button the Import Participants screen is reached. Here you can choose a file from which Vusion will import the contacts. 
+:index:`Importation des participants` à partir d’un fichier
+==============================================================
+Dans de nombreux cas l'ajout de participants, un par un n'est pas très efficace. Heureusement, il ya une autre façon d'ajouter des participants et c'est en les important d'un fichier. Utilisation du bouton Importer l'écran des participants importation est atteint. Ici vous pouvez choisir un fichier à partir duquel Vusion va importer les contacts.
 
 .. figure:: _static/img/part_import.PNG
 	:width: 800px
@@ -45,7 +45,7 @@ In many cases adding participants one by one is not very efficient. Luckily ther
 
 	The import participants screen 
 
-You can import from a CSV or XLS file. The first column should contain the telephone numbers. The second column is reserved for tags.  Other columns in the file will be seen as labels for the participants, where the top entry of each column will be used as the label name.
+Vous pouvez importer à partir d'un fichier CSV ou XLS. La première colonne doit contenir les numéros de téléphone. La deuxième colonne est réservée pour les tags. D'autres colonnes dans le fichier seront considérées comme des tags pour les participants, où l'entrée en haut de chaque colonne sera utilisée comme nom de label.
 
 .. figure:: _static/img/part_excel.PNG
 	:width: 450px
@@ -53,32 +53,32 @@ You can import from a CSV or XLS file. The first column should contain the telep
 	:alt: image19.png
 	:figwidth: 800px
 
-	The first entry in the first column, field A1 in Excel, should always contain the text "phone". The next column contains tags. Other columns can contain Labels for the participants
+  La première entrée dans la première colonne, le champ A1 dans Excel, doit toujours contenir le texte "téléphone". La colonne suivante contient des balises. D'autres colonnes peuvent contenir des tags pour les participants
 
 
-In the Import Participants screen you can also automatically add a tag to the imported participants. Put the tag you want to add to the participants in the "Tag imported participants" field. When you selected the right file and the tag you want to add, click upload. The file will be uploaded and the participants will be added to the database with correct tags attached. 
+Dans l'écran d’importation des participants, vous pouvez également ajouter automatiquement des tags aux participants importés. Mettre le tag que vous souhaitez ajouter aux participants dans le champ "Tag des participants importés". Lorsque vous avez sélectionné le bon fichier et le tag que vous souhaitez ajouter, cliquez sur Télécharger. Le fichier sera téléchargé et les participants seront ajoutés à la base de données avec des tags corrects attachés. 
 
 
-:index:`Managing participants`
--------------------------------
+:index:`Gestion des participants`
+----------------------------------
 
-Managing your participants can be done in two ways. If you need to make a change to a single participant, or maybe just a few, you can manage them individually. You can also perform actions on groups of participants by first selecting the right group and then performing the action on the whole group.
+Gestion de vos participants peut se faire de deux façons. Si vous avez besoin de faire un changement à un seul participant, ou peut-être juste un peu, vous pouvez les gérer individuellement. Vous pouvez également effectuer des actions sur des groupes de participants en sélectionnant d'abord le bon groupe, puis d'exécuter l'action sur l'ensemble du groupe.
 
-Managing individual participants
-================================
-There are cases when yo need to perform an action on an individual participant. You can View, Edit or Delete individual participants with the buttons shown on the right of each participant. 
+Gestion individuelle des participants
+======================================
+Il ya des cas où vous avez besoin d’effectuer une action sur un participant. Vous pouvez afficher, modifier ou supprimer des participants individuels avec les boutons affichés sur le droit de chaque participant.
 
 
 
-- The **View** button will bring up a page that shows details about the participant. It will show basic information like the participant's phone number, labels and tags but it also shows the participant's history. Here you can see records of all the communication between Vusion and the participant. It also shows options to Edit or Delete the participant
-- The **Edit** button brings up a screen where you can change information about the participant. Things you can change here are: Phone number, Labels, Tags and the Dialogues the participant is enrolled in. 
-- The Delete button will delete the participant from the database, including the participant history. This action is permanent and can not be undone, so be careful.
+- Le bouton **Afficher** pour faire apparaître une page qui affiche les détails concernant le participant. Il affiche des informations de base comme le numéro de téléphone, les tags des participants, mais il montre aussi l'historique du participant. Ici vous pouvez voir les enregistrements de toutes les communications entre Vusion et le participant. Il montre aussi des options pour modifier ou supprimer le participant
+- Le bouton **Modifier** affiche un écran où vous pouvez modifier les informations sur le participant. Choses que vous pouvez changer ici sont: Numéro de téléphone, labels, tags et les dialogues du participant est inscrit.
+- Le bouton **Supprimer** permet de supprimer le participant de la base de données, y compris l'historique de participant. Cette action est permanente et ne peut être annulée, alors soyez prudent.
 
-:index:`Filtering participants`
-===============================
-When actions need to be applied to larger groups of participants, the controls on the top make handling large groups easy. Actions you can perform on groups of participants are: Export, Tag, Untag and Delete. Before you can perform an action on a group of participants, the first thing to do is to select the group you want to perform the action on. It is very important to select the right group, otherwise things can easily go wrong. Selecting the group is done using the Filter button. 
+:index:`Filtrage des participants`
+===================================
+Quand les actions doivent être appliquées à de grands groupes de participants, les contrôles sur le dessus font manipulation de grands groupes facile. Les actions que vous pouvez effectuer sur des groupes de participants sont: l'exportation, Tag, Untag et Supprimer. Avant de pouvoir effectuer une action sur un groupe de participants, la première chose à faire est de sélectionner le groupe que vous souhaitez effectuer l'action. Il est très important de choisir le bon groupe, sinon les choses peuvent facilement se tromper. La sélection du groupe est réalisée en utilisant le bouton de filtre.
 
-When you click the Filter button, a big yellow box pops up. 
+Lorsque vous cliquez sur le bouton de filtre, une grosse boîte jaune apparaît. 
 
 .. figure:: _static/img/part_filterbox.PNG
 	:width: 800px
@@ -89,37 +89,36 @@ When you click the Filter button, a big yellow box pops up.
 	This is the Filter interface. 
 
 
-In the filter interface, you can create filters to select records with certain information. For example: as we said before, all participants imported from a file are automatically tagged with the tag: **imported**. Using Filter we can select participants with this tag. To create a filter that selects all participants with the **imported** tag, first click on Filter. You now see the yellow Filter box. The first line with the options "all" and "any" are not relevant for now. We'll come back to that later. For now, click on the empty dropdown box and select "tagged". Now two extra boxes show up. These three boxes make up a filter rule. To select all participants tagged with "imported", select a filter with::
+Dans l'interface de filtre, vous pouvez créer des filtres pour sélectionner des enregistrements avec certaines informations. Par exemple: comme nous l'avons dit, tous les participants importés à partir d'un fichier sont automatiquement taggés avec le tag: importé. L'aide du filtrage, nous pouvons sélectionner les participants avec ce tag. Pour créer un filtre qui sélectionne tous les participants avec le tag importée, cliquez d'abord sur le filtre. Vous voyez maintenant la boîte de filtre jaune. La première ligne avec les options «tout» et «tout» ne sont pas pertinents pour l'instant. Nous y reviendrons plus tard. Pour l'instant, cliquez sur la liste déroulante vide et sélectionnez "marqué". Maintenant, deux boîtes supplémentaires apparaissent. Ces trois boîtes constituent une règle de filtrage. Pour sélectionner tous les participants avec le tag "importés", sélectionnez un filtre::
 	
 	tagged | with | imported
 
-Now click Filter. The page will reload and show all records of participants with the tag "imported". Using this same method you can filter on a number of other characteristics. At the moment you can filter on:
- - **phone**: filter on phone number.
- - **optin**: filter on opt-in date.
- - **optout**: filter on opt-out date.
- - **enrolled**: filter on the Dialogues participants are enrolled in.
- - **tagged**: filter on participants' tags.
- - **labels**: filter on labels participants have.
+Maintenant, cliquez sur Filtre. La page se rechargera et afficher tous les enregistrements des participants avec le tag «importé». Selon cette même méthode, vous pouvez filtrer sur un certain nombre d'autres caractéristiques. Pour le moment, vous pouvez filtrer sur:
+ - **téléphone**: filtre sur le numéro de téléphone.
+ - **optin**: filtre sur la date de l'opt-in.
+ - **optout**: filtre sur la date de l'opt-out.
+ - **enrolled**: filtre sur les dialogues participants qui sont enrolled.
+ - **tagged**: filtre sur les tags des participants.
+ - **labels**: filtre sur les labels des participants ont.
 
-When you select the property you want to filter on, appropriate boxes will appear next to the first box to further specify your filter. 
-The example above shows how to use a filter to make a selection. Most of the times one filter rule will be enough to select what you need, but sometimes you need more complex filters. In Vusion it is possible to create more then one filter rule by simply clicking on the "+" symbol on the right of the Filter box. This will generate another line where you can enter another filter rule. This is also where the difference between "all" and "any" on the first line of the Filter box becomes important. 
+Lorsque vous sélectionnez la propriété que vous souhaitez filtrer, cases appropriées apparaîtront à côté de la première boîte à préciser davantage votre filtre. L'exemple ci-dessus montre comment utiliser un filtre pour effectuer une sélection. La plupart du temps une règle de filtrage aura suffit de sélectionner ce que vous avez besoin, mais parfois vous avez besoin des filtres plus complexes. Dans Vusion il est possible de créer plus d'une règle de filtrage en cliquant simplement sur ​​le symbole "+" à droite de la boîte de filtre. Cela va générer une autre ligne où vous pouvez entrer une autre règle de filtrage. C'est aussi là que la différence entre «tous» et «tout» sur la première ligne de la boîte du filtre devient important.
 
-Suppose you have two filter rules, rule A and rule B and the filter is set to "Match all". Now only records are allowed that match rule A **AND** rule B. Now when the filter is set to "Match any", all records are selected that match either rule A **OR** rule B. In other words, when "all" is selected, **both** rules have to be met, and when "any" is selected, **at least one** rule has to be met. 
+Supposons que vous ayez deux règles de filtrage, la règle A et B et règle le filtre est réglé sur "correspondre à tous". Maintenant que les enregistrements sont autorisés que la règle de correspondance A et de l'article B. Maintenant lorsque le filtre est réglé sur "correspond à tout", tous les dossiers sont sélectionnés ce match soit règle A ou la règle B. En d'autres termes, lorsque "tout" est sélectionné, les deux règles doivent être respectées, et lorsque "tout" est sélectionné, au moins une règle doit être satisfaite.
 
-In Vusion it is possible to create filters with multiple filter rules. When working with multiple filter rules, it is very important to understand the difference between matching "all" or "any" filter rules.
+Dans Vusion il est possible de créer des filtres avec plusieurs règles de filtrage. Lorsque vous travaillez avec plusieurs règles de filtrage, il est très important de comprendre la différence entre correspondant à "tous" ou "des" règles de filtrage.
 
-For a closer look at the filtering options in Vusion, please refer to the :doc:`History Filtering guide <filtering-history>`
+Pour examiner de plus près les options de filtrage dans Vusion, s'il vous plaît référez vous au :doc:`guide d’historique de filtrage. <filtering-history>`
 
-Performing actions on groups of participants
-=============================================
-When you have made the right selection, you can perform actions on all participants in the selection. The actions that are available are:
+Effectuer des actions sur des groupes de participants
+=======================================================
+Quand vous avez fait le bon choix, vous pouvez effectuer des actions sur tous les participants à la sélection. Les actions disponibles sont:
 
- - **Tag**: Add a Tag to all selected participants. A tag is a piece of text that can be used to mark certain participants.
- - **Untag**: Remove a Tag from all selected participants.
- - **Export**: Download a CSV file to your computer containing the selected participants. The file will contain all the details of the participant like tags and labels. This guide will show you how you can use the CSV file in Excel :doc:`Mini guide: Using .CSV files in Excel </advanced/csv_split>`
- - **Delete**: Remove the selected participants from the database. When you delete participants they are permanently removed. This action can not be undone.
+ - **Tag**: Ajouter un tag à tous les participants sélectionnés. Un tag est un morceau de texte qui peut être utilisé pour marquer certains participants.
+ - **Untag**: Enlever un tag de tous les participants sélectionnés.
+ - **Exporter**: Télécharger un fichier CSV sur votre ordinateur contenant les participants sélectionnés. Le fichier contiendra tous les détails du participant comme les tags et les labels. Ce guide va vous montrer comment vous pouvez utiliser le fichier CSV dans Excel :doc:`Mini-guide: Utilisation de fichiers CSV dans Excel </advanced/csv_split>`
+ - **Supprimer**: Supprime les participants sélectionnés à partir de la base de données. Lorsque vous supprimez les participants, ils sont définitivement supprimés. Cette action ne peut être annulée.
 
-It is very important to remember that these operations work on all the currently selected participants. This means you have to be very careful, especially when deleting groups of participants. 
+Il est très important de se rappeler que ces opérations fonctionnent sur ​​tous les participants sélectionnés. Cela signifie que vous devez être très prudent, surtout lors de la suppression des groupes de participants.
 
 
 
