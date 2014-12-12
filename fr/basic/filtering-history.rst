@@ -1,77 +1,77 @@
-:index:`Filtering History`
-============================
+:index:`Historique du filtrage`
+=================================
 
-The program history provides some powerful filtering tools. Start by going to the history page of a program and clicking on the filter button at the top right of the screen. This will give you yellow block in which you can start defining your filter. 
+L'historique du programme fournit des outils de filtrage puissants. Commencez par aller à la page de l'historique d'un programme et en cliquant sur le bouton de filtre en haut à droite de l'écran. Cela vous donnera un bloc jaune dans lequel vous pouvez commencer à définir votre filtre.
 
-The following image shows the filter box and the drop down with all the various filters that can be used:
+L'image suivante montre la boîte de filtre et le menu déroulant avec tous les différents filtres qui peuvent être utilisés:
 
 .. image:: _static/img/filtering_history_start.png 
 
 
-From this we can start defining out filter. But let us first look more closely  at the filter screen and see what options we have for filtering.
+A partir de cela, nous pouvons commencer à définir les filtres. Mais laissez-nous d'abord de plus près à l'écran de filtre et de voir quelles sont les options que nous avons pour le filtrage.
 
-Matching all or any filter rules
-################################
+Correspondance d’une partie ou de toutes les règles de filtre
+#################################################################
 
 .. image:: _static/img/filtering_history_overview.png 
 
-The first thing we note is that on the top we can choose between:
+La première chose que nous remarquons est sur ​​le haut, nous pouvons choisir entre: 
 
-* *match* **all** *of the following rules*
-* *match* **any** *of the following rules*
+* *correspond à **tous** les règles suivantes*
+* *correspond à l'**une** des règles suivantes*
 
-If we match **all** the rules, the messages that will show up after filtering meet **all** the conditions you have definied in the filter. So, if you said you want to filter incoming messages and messages containing the word *hello*, the messages shown will be only the messages that are both incoming **and** have the word *hello* in them. Not incoming messages **not** containing the word hello will be shown.
+Si nous adaptons à toutes les règles, les messages qui apparaîtront après filtrage remplissent toutes les conditions que vous avez définis précisément dans le filtre. Donc, si vous dites que vous voulez filtrer les messages et les messages entrants contenant le mot bonjour, les messages affichés seront uniquement les messages qui sont à la fois entrant et avoir le mot bonjour en eux. Les messages non entrants ne contenant pas le mot bonjour seront affichés.
 
-If we match **any** of the rules it works different. Suppose we want to filter on messages containing the word *hello* or messages containing the word *bye*. We would then say we want to match any of the rules, and define described filters. The end result will be a list of all messages containing the word *hello* and all the messages containing the word *bye*.
+Si nous associer une parties des règles il fonctionne différemment. Supposons que nous voulons filtrer les messages contenant le mot bonjour ou des messages contenant le mot bye. Nous pourrions alors dire que nous voulons pour correspondre à l'une des règles, et définir des filtres décrits. Le résultat final sera une liste de tous les messages contenant le mot bonjour et tous les messages contenant le mot bye.
 
-If this is still confusing, think about it this way. If we use the *all* rule we will basically say that each row of the filter has **AND** written in between. Because the resulting list of messages will have to match the first filter **AND** the second filter, **AND** the third filter, etc. When we use *any* the **AND** is replaced by **OR**. 
+Si cela est encore confus, pensez-y de cette façon. Si nous utilisons la toute règle, nous allons essentiellement dire que chaque ligne du filtre a "ET" écrite entre les deux. Parce que la liste résultante des messages devra correspondre au premier filtre et le second filtre, et le troisième filtre, etc. Lorsque nous utilisons toute "ET" est remplacé par "OU".
 
-Defining a filter rule
-######################
+Définition d'une règle de filtrage
+######################################
 
-Once we decided if we want to match *all* or *any* of the filters we can start defining our filter rules.
+Une fois que nous avons décidé si nous voulons reconnaître tout ou des filtres que nous pouvons commencer à définir nos règles de filtrage.
 
-First we select the type of the filter. The following types are currently available:
+Nous avons d'abord sélectionné le type de filtre. Les types suivants sont actuellement disponibles:
 
-* *message direction* - filter on either incoming or outgoing messages
-* *message status* - filter on the status of the message
-* *date* - filter on the dates messages were sent/received
-* *participant phone* - filter on phone number (or part of it)
-* *message content* - filter on any of the words or strings in the message content
-* *dialogue source* - filter on messages that relate to a specific dialogue
-* *interaction source* - filter on messages pertaining to a specific interaction
-* *answers* - filter on matching or unmatching answers to questions
+* *direction de message* - filtre soit sur les messages entrants ou sortants
+* *état du message* - filtre sur l'état du message
+* *date* - filtre sur dates des messages qui ont été envoyés / reçus
+* *participant téléphone* - Filtre sur le numéro de téléphone (ou une partie de celui-ci)
+* *contenu du message* - filtre sur l'un des mots ou des chaînes dans le contenu du message
+* *source de dialogue* - filtre sur les messages qui se rapportent à un dialogue spécifique
+* *source d'interaction* - filtre sur les messages relatifs à une interaction spécifique
+* *réponses* - filtre sur le couplage ou non-concordance des réponses aux questions
 
-Once we have chosen the type of filter we want to use there are a few different options.
+Une fois que nous avons choisi le type de filtre que nous voulons utiliser, il ya quelques options différentes.
 
-For some filters a second drop down box will appear which enables us to choose various options for the filter. For example, if we choose the filter *message direction*, a second drop down box will appear that enables us to choose between incoming or outgoing messages.
+Pour certains filtres une seconde liste déroulante apparaît qui nous permet de choisir différentes options pour le filtre. Par exemple, si nous choisissons la direction du message de filtre, une seconde liste déroulante apparaît que nous permet de choisir entre les messages entrants ou sortants.
 
-For other filters there will be a third box were we can provide additional details. The date filter is a good example. When we choose date we get a second drop down to choose between *until* and *since*, however, a third box is also presented were we can put the actual date from which we want to filter.
+Pour les autres filtres, il y aura une troisième boîte était nous pouvons fournir plus de détails. Le filtre de date est un bon exemple. Quand nous choisissons date nous recevons une deuxième liste déroulante pour choisir entre jusqu'à et depuis, cependant, une troisième boîte est également présenté étions nous pouvons mettre la date réelle à partir de laquelle nous voulons filtrer.
 
 .. image:: _static/img/filtering_history_date.png 
 
-Another example is the message content filter:
+Un autre exemple est le filtre de contenu de message:
 
 .. image:: _static/img/filtering_history_content.png
 
-We can choose between three options in the second drop down and the textbox gives us the possibility to write a word or string on which VUSION will do matching.
+Nous pouvons choisir entre trois options dans le deuxième menu déroulant et la zone de texte qui nous donne la possibilité d'écrire un mot ou une chaîne sur laquelle VUSION fera correspondre.
 
-We can add more rules by pressing the **+** button at the right of a filter rule. This will give us another line on which to define an additional filter. Conversely, filter rules can be removed by pressing the **-** button at the side of a filter rule.
+Nous pouvons ajouter d'autres règles en appuyant sur le bouton **+** à droite d'une règle de filtrage. Cela nous donnera une autre ligne sur laquelle définir un filtre supplémentaire. En revanche, les règles de filtrage peuvent être retirées en appuyant sur le bouton **-** à côté d'une règle de filtrage.
 
-Getting filter results
-######################
+Obtenir des résultats de filtrage
+###################################
 
-Once all the rules have been defined you can press the *Filter* button underneath the rules to start filtering. After a little wait the matching messages will appear.
+Une fois que toutes les règles ont été définies, vous pouvez appuyer sur le bouton de filtre sous les règles commencent à filtrer. Après un peu d'attente les messages correspondants apparaîtront.
 
-You can go through all the messages by scrolling and using the arrow buttons to the side of the filter. This is also were you can see how many messages are matching your filter:
+Vous pouvez passer en revue tous les messages en faisant défiler et en utilisant les touches fléchées vers le côté du filtre. C'est aussi été vous pouvez voir le nombre de messages correspondant à votre filtre:
 
 .. image:: _static/img/filtering_history_total.png
 
-If the filter did not give the intended results you can click the small arrow button on the right side of the yellow filter box to start editing the filter and try it again with different parameters.
+Si le filtre n'a pas donné les résultats escomptés, vous pouvez cliquer sur le petit bouton de la flèche sur le côté droit de la boîte de filtre jaune pour commencer à modifier le filtre et essayez à nouveau avec des paramètres différents.
 
-It is important to note that once you have defined a filter you can easily save it by storing the URL as a bookmark. Then, by going to the same URL you will get the same filter again. This is an easy way of revisiting past filters.
+Il est important de noter qu'une fois que vous avez défini un filtre, vous pouvez facilement enregistrer en stockant l'URL à vos signets. Puis, en allant vers la même URL que vous aurez à nouveau le même filtre. C'est un moyen facile de revisiter filtres dernières.
 
-Also, you can export the filtered data by using the **Export History** dropdown at the top right of the screen. By exporting you can do further analysis on the data in an external application, like Microsoft Excel. In order to use the exported CSV file in Excel, follow this guide :doc:`Mini guide: Using .CSV files in Excel </advanced/csv_split>`
+En outre, vous pouvez exporter les données filtrées à l'aide de la liste déroulante Exporter l'historique en haut à droite de l'écran. En exportant vous pouvez faire une analyse plus approfondie des données dans une application externe, comme Microsoft Excel. Pour utiliser le fichier CSV exporté dans Excel, suivez ce guide  :doc:`Mini guide: Utilisation de fichiers CSV dans Excel </advanced/csv_split>`
 
 
 
