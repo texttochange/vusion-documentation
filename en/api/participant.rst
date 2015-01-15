@@ -1,9 +1,54 @@
 API Participant
 ------------------
 
+Index
+=======
+To List participants with pagination.
+
+**method**
+GET
+
+**Action URL**
+::
+    .../programParticipant/index...
+
+**Format**
+
+* json
+* csv
+
+**Options Parameters**
+* **page** the page number to show, default 1
+* **limit** the numnber of participants per page, default 20, maximum 500
+
+Example of request
+http://vusion-test.texttchange.org/myprogram/programParticipants/index.csv/page:2/limit:300
+
+listParticipants
+=================
+list participants without pagination, ie with an hard coded max of 10000.
+
+**method**
+GET
+
+**Action URL**
+::
+    .../programParticipant/listParticipants...
+
+**Format**
+
+* json
+* csv
+
+Example of request
+http://vusion-test.texttchange.org/myprogram/programParticipants/listParticipants.csv
+
 Create
 =======
 Add a participant who is optin. The optin date is set at the time the function is called.
+
+**method**
+POST
 
 **Action URL**
 ::
@@ -56,6 +101,9 @@ In case the phone number is already created, the error response will be
 Edit
 ======
 
+**method**
+POST
+
 **Action URL**
 ::
 	… /programParticipants/edit ...
@@ -75,6 +123,9 @@ Optin
 =======
 Optin a participant who is Optout WON’T modify the tags and profile information of this participant.  
 
+**method**
+POST
+
 **Action URL**
 ::
 	… /programParticipants/optin ...
@@ -90,6 +141,9 @@ In case the action is successful, the regular response is provided.
 Optout
 ========
 Once a participant is optout, vusion will stop sending any message to this participant. The participant can at any time be Optin again. 
+
+**method**
+POST
 
 **Action URL**
 :: 
@@ -108,6 +162,9 @@ Run Actions
 ============
 
 This call run actions associate with an question interaction (closed/open question or multi-keywords).
+
+**method**
+POST
 
 **Action URL**
 ::
