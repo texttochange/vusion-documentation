@@ -5,19 +5,21 @@ Index
 =======
 To List participants with pagination.
 
-**method**
+**Method**
 GET
 
 **Action URL**
 ::
-    .../programParticipant/index...
+    .../programParticipants/index...
 
 **Format**
 
 * json
 * csv
+* html
 
 **Options Parameters**
+
 * **page** the page number to show, default 1
 * **limit** the numnber of participants per page, default 20, maximum 500
 
@@ -28,12 +30,12 @@ listParticipants
 =================
 list participants without pagination, ie with an hard coded max of 10000.
 
-**method**
+**Method**
 GET
 
 **Action URL**
 ::
-    .../programParticipant/listParticipants...
+    .../programParticipants/listParticipants...
 
 **Format**
 
@@ -47,18 +49,24 @@ Create
 =======
 Add a participant who is optin. The optin date is set at the time the function is called.
 
-**method**
+**Method**
 POST
 
 **Action URL**
 ::
 	… /programParticipants/add ...
 
+**Format**
+
+* json
+* html
+
 **Mandatory Parameters**
 
 * *phone* (String) the phone number of the new participant. The phone number MUST have it’s international prefix. The + or 00 or 0 prefix are not necessary. Example 25673453213 (256 being Uganda’s prefix) is correct. The other example 73453213 is not correct as the international prefix is missing.
 
 **Optional Parameters**
+
 * *tags* the tags to be set for this participant. Tags are separated by comma. This field can be present multiple time to define multiple tags.
 * *profile* a labels to be set for this participant. The format of label are “[label_name]:[label_value]” for example “name:Sandra”
 
@@ -101,12 +109,17 @@ In case the phone number is already created, the error response will be
 Edit
 ======
 
-**method**
+**Method**
 POST
 
 **Action URL**
 ::
 	… /programParticipants/edit ...
+
+**Format**
+
+* json
+* html
 
 **Mandatory Parameters**
 
@@ -123,12 +136,17 @@ Optin
 =======
 Optin a participant who is Optout WON’T modify the tags and profile information of this participant.  
 
-**method**
+**Method**
 POST
 
 **Action URL**
 ::
 	… /programParticipants/optin ...
+
+**Format**
+
+* json
+* html
 
 **Mandatory Parameters**
 
@@ -142,12 +160,17 @@ Optout
 ========
 Once a participant is optout, vusion will stop sending any message to this participant. The participant can at any time be Optin again. 
 
-**method**
+**Method**
 POST
 
 **Action URL**
 :: 
 	… /programParticipants/optout ...
+
+**Format**
+
+* json
+* html
 
 **Mandatory Parameters**
 
@@ -163,12 +186,17 @@ Run Actions
 
 This call run actions associate with an question interaction (closed/open question or multi-keywords).
 
-**method**
+**Method**
 POST
 
 **Action URL**
 ::
-	… /programParticipants/runActions ...
+	... /programParticipants/runActions ...
+
+**Format**
+
+* json
+* html
 
 **Mandatory Parameters**
 
