@@ -21,14 +21,17 @@ GET
 **Options Parameters**
 
 * **page** the page number to show, default 1
-* **limit** the numnber of participants per page, default 20, maximum 500
+* **limit** the numnber of participants per page, default 20, maximum 500. For getting more participants at once use ``listParticipants``.
+* filter parameters can also be used, documentation todo
 
 Example of request
 http://vusion-test.texttchange.org/myprogram/programParticipants/index.csv/page:2/limit:300
 
 listParticipants
 =================
-list participants without pagination, ie with an hard coded max of 10000.
+To list participants without pagination, ie with an hard coded maximum limit of 10000. For getting more participants, one can use an asynchronous mechanism that is not documented yet.
+For each participant, the information will be 1) the phone number, 2) the tags and 3) the profile.
+
 
 **Method**
 GET
@@ -42,8 +45,14 @@ GET
 * json
 * csv
 
+**Options Parameters**
+
+* **explode_profile** the labels that will be extracted from the profile to stand on their own. In case the participant doesn't have such label, the value is an empty string.
+* filter parameters can also be used, documentation todo
+
 Example of request
-http://vusion-test.texttchange.org/myprogram/programParticipants/listParticipants.csv
+http://vusion-test.texttchange.org/myprogram/programParticipants/listParticipants.csv?explode_profile=age,gender,name
+This request will return a csv file with 6 columns: ``phone,tags,profile,age,gender,name``
 
 Create
 =======
