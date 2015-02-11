@@ -37,6 +37,7 @@ Advanced topics
 #. :doc:`Proportional Tagging Action </advanced/proportional_tagging>`
 #. :doc:`Proportional Labelling Action </advanced/proportional_labelling>`
 #. :doc:`SMS Forward Action </advanced/sms_forwarding>`
+#. :doc:`SMS Invite Action </advanced/sms_inviting>`
 #. :doc:`Understanding User Levels </advanced/understanding-user-levels>`
 #. :doc:`Credit Viewer </advanced/credit_viewer>`
 #. :doc:`Message Customisation </advanced/message_customisation>`
