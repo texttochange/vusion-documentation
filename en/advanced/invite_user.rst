@@ -5,6 +5,7 @@ Use Case
 ----------
 Consider following use case: As an Organization that is running a program on VUSION, you would like to be able to grant access to certain members of your institution access to your program. Using the Invite user functionality will allow you to do just that.
 
+Please note:
 ::
 	"NOTE that the invite user functionality is User specific. Only users with rights to perform this action will be able to do so."
 
