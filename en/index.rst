@@ -41,6 +41,7 @@ Advanced topics
 #. :doc:`Understanding User Levels </advanced/understanding-user-levels>`
 #. :doc:`Credit Viewer </advanced/credit_viewer>`
 #. :doc:`Message Customisation </advanced/message_customisation>`
+#. :doc:`Invite User </advanced/invite_user>`
 
 Types of Programs
 ===================
