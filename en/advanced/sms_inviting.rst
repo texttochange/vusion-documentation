@@ -1,4 +1,4 @@
-:index:`SMS inviting`
+:index:`SMS invite action`
 ######################
 
 Use Case
