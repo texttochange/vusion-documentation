@@ -15,7 +15,7 @@ In either a Request or a Dialogue, you can select the action SMS Invite from the
    :width: 700px
    
 * *Content* is this textarea, you enter the invitation message that will be sent. For more details on how to customize this message, see the next section.
-* *Invitee Tag(s)* is a textbox, you enter the tag which the invited participant will have to easily identify them in the participant index 
+* *Invitee Tag* is a textbox, you enter the tag which the invited participant will have to easily identify them in the participant index 
 * *feedback in case participant is already Optin* which is a feedback message return to the sender in case participant is already Optin in the program.
 
 
