@@ -18,6 +18,9 @@ In either a Request or a Dialogue, you can select the action SMS Invite from the
 * *Invitee Tag* is a textbox, you enter the tag which the invited participant will have to easily identify them in the participant index 
 * *feedback in case participant is already Optin* which is a feedback message return to the sender in case participant is already Optin in the program.
 
+.. note:: 
+	When using sms invite action on Request ensure that *"In case no matching on other requests, try to match only the message first word."*
+	checkbox is ticked.
 
 :index:`Notification Message`
 ------------------------------
