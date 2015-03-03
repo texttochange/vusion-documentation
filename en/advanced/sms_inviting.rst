@@ -21,6 +21,11 @@ In either a Request or a Dialogue, you can select the action SMS Invite from the
 .. note:: 
 	When using sms invite action on Request ensure that *"In case no matching on other requests, try to match only the message first word."*
 	checkbox is ticked.
+	
+	Also regarding the phone input on the invitee. The inviter (vusion participant) should add the international perfix to the invitee phone number when sending
+	the KEYWORD ie
+	              "JOIN +2561111" or "JOIN 256111111" or "JOIN 0256111111"
+	              where "256" is the International Perfix for the country where the program is running.
 
 :index:`Notification Message`
 ------------------------------
