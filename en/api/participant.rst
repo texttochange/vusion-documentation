@@ -70,18 +70,15 @@ POST
 * json
 * html
 
-**Mandatory Body Parameters**
+**Mandatory Parameters**
 
 * *phone* (String) the phone number of the new participant. The phone number MUST have it’s international prefix. The + or 00 or 0 prefix are not necessary. Example 25673453213 (256 being Uganda’s prefix) is correct. The other example 73453213 is not correct as the international prefix is missing.
 
-**Optional Body Parameters**
+**Optional Parameters**
 
 * *tags* the tags to be set for this participant. Tags are separated by comma. This field can be present multiple time to define multiple tags.
 * *profile* a labels to be set for this participant. The format of label are “[label_name]:[label_value]” for example “name:Sandra”
-
-**Optional URL Parameters**
-
-* *force_optin* (Boolean), the default behavior is that tying to create an optout participant returns a validation error. However will ```...?force_optin=true...```, an optout participant will be optin again without validation error.
+* *force-optin* (Boolean), the default behavior when creating an already optout participant is a validation error. However with this parameter, the opted out participant will be opted in again without validation error.
 
 **Note about validation**
 
