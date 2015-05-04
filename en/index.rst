@@ -42,6 +42,7 @@ Advanced topics
 #. :doc:`Credit Viewer </advanced/credit_viewer>`
 #. :doc:`Message Customisation </advanced/message_customisation>`
 #. :doc:`Invite User </advanced/invite_user>`
+#. :doc:`Reset Action with Exceptions </advanced/reset_exceptions>`
 
 Types of Programs
 ===================
